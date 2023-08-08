@@ -23,7 +23,7 @@ The repository follows a structured organization to ensure clarity and maintaina
 root/ \
 ├── assets/ \
 │   ├── css/ \
-│       ├── common.css \
+│*Tabspace*       ├── common.css \
 │       ├── navbar.css \
 │       ├── footer.css \
 │       ├── specific-page.css (e.g., web-design.css) \
@@ -83,4 +83,4 @@ For any queries or assistance related to this repository, feel free to contact m
 Thank you for being a part of the **Campaign India** development team!
 
 ---
-*Note: This README serves as a basic template. Feel free to enhance and tailor it to your project's specific needs. Contact admin for making chnages in readme file.*
+*Note: This README serves as a basic template. Feel free to enhance and tailor it to your project's specific needs. Contact admin for making chnages in readme file. Learn markdown here https://www.markdownguide.org/basic-syntax/*
