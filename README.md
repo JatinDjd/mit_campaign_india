@@ -20,31 +20,31 @@ This repository contains the source code for the **Campaign India** web project.
 
 The repository follows a structured organization to ensure clarity and maintainability. Here's a high-level overview:
 
-root/**Enter**
-├── assets/**Enter**
-│   ├── css/**Enter**
-│       ├── common.css**Enter**
-│       ├── navbar.css**Enter**
-│       ├── footer.css**Enter**
-│       ├── specific-page.css (e.g., web-design.css)**Enter**
-│   ├── js/**Enter**
-│       ├── common.js**Enter**
-│       ├── navbar.js**Enter**
-│       ├── footer.js**Enter**
-│       ├── specific-page.js (e.g., web-design.js)**Enter**
-├── template/**Enter**
-│   ├── headers/**Enter**
-│       ├── header1/**Enter**
-│           ├── header.html**Enter**
-│           ├── header.css**Enter**
-│       ├── header2/**Enter**
-│           ├── header.html**Enter**
-│           ├── header.js**Enter**
-│   ├── footers/**Enter**
-│   ├── forms/**Enter**
-│   ├── validations/**Enter**
-├── web-design.html**Enter**
-└── README.md**Enter**
+root/ \
+├── assets/ \
+│   ├── css/ \
+│       ├── common.css \
+│       ├── navbar.css \
+│       ├── footer.css \
+│       ├── specific-page.css (e.g., web-design.css) \
+│   ├── js/ \
+│       ├── common.js \
+│       ├── navbar.js \
+│       ├── footer.js \
+│       ├── specific-page.js (e.g., web-design.js) \
+├── template/ \
+│   ├── headers/ \
+│       ├── header1/ \
+│           ├── header.html \
+│           ├── header.css \
+│       ├── header2/ \
+│           ├── header.html \
+│           ├── header.js \
+│   ├── footers/ \
+│   ├── forms/ \
+│   ├── validations/ \
+├── web-design.html \
+└── README.md \
 
 
 ## CSS Structure
