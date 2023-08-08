@@ -66,7 +66,7 @@ The `template` folder is vital for maintaining consistency and reducing redundan
 
 We encourage contributions from the developer community. To contribute:
 
-1. Test before on local before comming or pushing the code to the repository.
+1. Test before on local before commiting or pushing the code to the repository.
 2. Always take git pull before starting the work on this project and before pushing the code.
 3. Always push code after section is complete do not wait for the END OF THE DAY.
 
