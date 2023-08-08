@@ -23,7 +23,7 @@ The repository follows a structured organization to ensure clarity and maintaina
 root/ \
 ├── assets/ \
 │   ├── css/ \
-│*Tabspace*       ├── common.css \
+│\t       ├── common.css \
 │       ├── navbar.css \
 │       ├── footer.css \
 │       ├── specific-page.css (e.g., web-design.css) \
