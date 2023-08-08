@@ -23,23 +23,23 @@ The repository follows a structured organization to ensure clarity and maintaina
 root/ \
 ├── assets/ \
 │   ├── css/ \
-│&emsp;├── common.css \
-│       ├── navbar.css \
-│       ├── footer.css \
-│       ├── specific-page.css (e.g., web-design.css) \
+│&emsp;&emsp;&emsp;&emsp;       ├── common.css \
+│&emsp;&emsp;&emsp;&emsp;       ├── navbar.css \
+│&emsp;&emsp;&emsp;&emsp;       ├── footer.css \
+│&emsp;&emsp;&emsp;&emsp;       ├── specific-page.css (e.g., web-design.css) \
 │   ├── js/ \
-│       ├── common.js \
-│       ├── navbar.js \
-│       ├── footer.js \
-│       ├── specific-page.js (e.g., web-design.js) \
+│&emsp;&emsp;&emsp;&emsp;       ├── common.js \
+│&emsp;&emsp;&emsp;&emsp;       ├── navbar.js \
+│&emsp;&emsp;&emsp;&emsp;       ├── footer.js \
+│&emsp;&emsp;&emsp;&emsp;       ├── specific-page.js (e.g., web-design.js) \
 ├── template/ \
 │   ├── headers/ \
-│       ├── header1/ \
-│           ├── header.html \
-│           ├── header.css \
-│       ├── header2/ \
-│           ├── header.html \
-│           ├── header.js \
+│&emsp;&emsp;&emsp;&emsp;       ├── header1/ \
+│&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;           ├── header.html \
+│&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;           ├── header.css \
+│&emsp;&emsp;&emsp;&emsp;       ├── header2/ \
+│&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;           ├── header.html \
+│&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;           ├── header.js \
 │   ├── footers/ \
 │   ├── forms/ \
 │   ├── validations/ \
