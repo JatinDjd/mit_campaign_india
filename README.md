@@ -52,7 +52,7 @@ root/ \
 - `common.css`: Holds common styling elements used across the entire application.
 - `navbar.css`: Contains styles for the navigation bar.
 - `footer.css`: Contains styles for the footer section.
-- `specific-page.css`: A specific CSS file for each distinct page (e.g., `web-design.css`) to keep styles separate and organized. (css file must be named after the page it is going to be included.)
+- `specific-page.css`: A specific CSS file for each distinct page (e.g., `web-design.css`) to keep styles separate and organized. (CSS or JS file must be named after the page it is going to be included.)
 
 ## Media Files
 
@@ -74,7 +74,7 @@ Please ensure your contributions adhere to our coding standards and practices.
 
 ## Key Points for Frontend Devs
 
-1. Do not @import fonts in css files. Use <link> tags.
+1. Do not use @import fonts in css files. Use <link> tags.
 
 ## Getting Support
 

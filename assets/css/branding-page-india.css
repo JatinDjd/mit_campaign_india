@@ -318,7 +318,7 @@ span{
 }
 
 .visionaries {
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(/branding_page_india/assets/images/visionary-img.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('https://cdn.masterinfotech.com/assets/campaign_india/visionary-img.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
