@@ -44,7 +44,7 @@ root/ \
 │&emsp;&emsp;   ├── forms/ \
 │&emsp;&emsp;   ├── validations/ \
 ├── web-design.html \
-└── README.md \
+└── README.md 
 
 
 ## CSS Structure
@@ -74,7 +74,7 @@ Please ensure your contributions adhere to our coding standards and practices.
 
 ## Key Points for Frontend Devs
 
-1. Do not use @import fonts in css files. Use `<link>` tags.
+1. Do not use `@import` fonts in css files. Use `<link>` tags.
 
 ## Getting Support
 
