@@ -423,12 +423,18 @@
                         <h4>Take The First Step Towards Brand Growth</h4>
                     </div>
                     <div>
-                        <div><input  type="text" placeholder="Name" id="userName"></div>
-                        <div><input  type="email" placeholder="Email" id="userEmail"></div>
-                        <div><input  type="text" placeholder="Phone" id="userPhone"></div>
-                        <div id="footer-form-error"></div>
+                        <div><input  type="text" name="name" placeholder="Name" id="userName"></div>
+                        <div class="error-message" data-for="name"></div>
+        
+                        <div><input  type="email" name="email" placeholder="Email" id="userEmail"></div>
+                        <div class="error-message" data-for="email"></div>
+
+                        <div><input  type="number" name="phone" placeholder="Phone" class="intl-phone" id="userPhone"></div>
+                        <div class="error-message hide intl-error" data-for="phone"></div>
+
                         <div class="submit-btn"><button type="submit" id="new-form-submit-btn" class="white-btn" onclick="generatetoken()">Let's
                                 Connect</button></div>
+                                <div class="error-message" data-for="error"></div>
                     </div>
 
                 </div>
@@ -510,109 +516,8 @@
 
 
     <script src="/assets/js/branding-page-india.js"></script>
-
-    
-    <script>
-    function validateForm(){
-    
-    var returnVal = true;
-
-    let x = document.forms["myForm"]["u_name"].value;
-    if (x == "") {
-        alert("Name must be filled out");
-    returnVal = false;
-    }
-
-    var number = document.forms['myForm']['u_phone'].value;
-    console.log(number);
-
-    if(number.length!=10){
-    alert("Enter a valid Number");
-    returnVal = false;
-    }
-
-return returnVal;
-}
-
-function generatetoken() {
-    var checker = validateForm();
-    if(checker == false)return;
-$.ajax({
-    url: "https://masterinfotech.com/api/generate-token",
-    type: "post",
-    success: function (response) {
-        console.log(response);
-        if (response.token) {
-            submitform(response.token);
-            console.log('submitform done');
-        }
-    },
-    error: function (jqXHR, textStatus, errorThrown) {
-        console.log(textStatus, errorThrown);
-    }
-});
-
-}
-
-let ipAddressValue;
-
-  function getIpAddress(callback) 
-  {
-      $.ajax({		
-        url: "https://masterinfotech.com/api/get-ip",		
-        type: "get",		
-        success: function(response) {		
-          callback(response);
-        },		
-        error: function(jqXHR, textStatus, errorThrown) {		
-         console.log('Failed to fetch IP address', errorThrown);
-         callback(null);	
-        }
-       });
-
-  }
-
-  // Example usage (same as before)
-  getIpAddress(function(ipAddress) {
-    if (ipAddress) {
-      console.log('IP Address:', ipAddress);
-      ipAddressValue = ipAddress;
-    } else {
-      console.log('Failed to get IP address.');
-    }
-  });
-
-function submitform(token) {
-
-
-var pagename = window.location.href;
-var userName = document.getElementById("userName").value;
-var userEmail = document.getElementById("userEmail").value;
-var userPhone = document.getElementById("userPhone").value;
-var values = {
-    "name": userName,
-    "email": userEmail,
-    "phone": userPhone,
-    "pagename": pagename,
-    "location": ipAddressValue,
-    "campaign_name": "India branding Campaign"
-};
-console.log(values);
-$.ajax({
-    url: "https://masterinfotech.com/api/verify-token",
-    type: "post",
-    headers: { 'token': token },
-    data: values,
-    success: function (response) {
-        console.log(response + "MIT ");
-        window.location.href = "https://service.masterinfotech.com/thankyou.html";
-    },
-    error: function (jqXHR, textStatus, errorThrown) {
-        console.log(errorThrown + "MIT ");
-    }
-});
-}
-    </script>
+    <script src="/templates/telephone_flags/script.js"></script>
+    <script src="/templates/form/script.js"></script>
 </body>
 
 </html>
