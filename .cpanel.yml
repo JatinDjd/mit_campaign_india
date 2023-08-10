@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/techbssi/service.masterinfotech.com/
+    - /bin/cp * $DEPLOYPATH
