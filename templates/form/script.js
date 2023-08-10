@@ -1,63 +1,83 @@
 // common-ajax-script.js
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const forms = document.querySelectorAll(".campaign-form");
     forms.forEach(form => {
-        form.addEventListener("submit", function(event) {
+        form.addEventListener("submit", function (event) {
             event.preventDefault();
             const formData = new FormData(event.target);
             for (const value of formData.values()) {
                 console.log(value);
-              }
+            }
             // Validate form fields
             let hasErrors = false;
             form.querySelectorAll("input").forEach(input => {
                 const fieldName = input.getAttribute("name");
                 const errorMessageElement = form.querySelector(`[data-for="${fieldName}"]`);
-                
+
                 // Custom email format validation
                 if (fieldName === "email" && !isValidEmail(input.value)) {
                     hasErrors = true;
                     errorMessageElement.textContent = "Invalid email format.";
                 }
                 //check if allPhoneVal undefined.
-                if (fieldName === "phone" && !allPhoneVal.includes(input)) {
-                    errorMessageElement.textContent = "Please enter valid phone number.";
+                if (fieldName === "phone" && !isUndefined(allPhoneVal)){
+                    if(!allPhoneVal.includes(input)){
                     hasErrors = true;
+                    errorMessageElement.textContent = "Please enter valid phone number.";
+                    }
                 }
-                // if (fieldName === "phone" && !isUndefined(allPhoneVal)){
-                //     var valid = 0;
-                //     for(var i=0;i<allPhoneVal.length;i++){
-                //         if(input == allPhoneVal[i]) valid =  1;
-                //     }
-                //     if(valid == 0){
-                //     hasErrors = true;
-                //     errorMessageElement.textContent = "Please enter valid phone number.";
-                //     }
-                // }
             });
 
             if (hasErrors) {
                 return;
             }
+
             //add IP before sending
-            fetch("https://my.com/sendmail", {
-                method: "POST",
-                body: formData
-            })
-            .then(response => response.json())
-            .then(data => {
-                // ! how we will show the response? redirect or popup key setting. 
-                // !add loading animation. 
-                // !disable submit button for 2 sec.
-                // !write something about naming classes.
-                // !chatgpt tips - ask for optimsations, solutions.
-                // !resposive images guide
-            })
-            .catch(error => {
-                form.querySelector(`[data-for="error"]`).textContent = "Error submitting form: " + error;
-                console.error("Error submitting form:", error);
+            // ! how we will show the response? redirect or popup key setting. 
+            // !add loading animation. 
+            // !disable submit button for 2 sec.
+            // !write something about naming classes.
+            // !chatgpt tips - ask for optimsations, solutions.
+            // !resposive images guide
+            $.ajax({
+                url: "https://masterinfotech.com/api/generate-token",
+                type: "post",
+                success: function (response) {
+                    console.log(response);
+                    if (response.token) {
+                        submitform(response.token);
+                        console.log('submitform done');
+                    }
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    console.log(textStatus, errorThrown);
+                }
             });
+
+            function submitform(token) {
+                var page_url = window.location.href;
+                formData.append("pagename", page_url);
+                formData.append("country_code", "in");
+                var formDataObject = {};
+                    formData.forEach((value, key) => {
+                        formDataObject[key] = value;
+                    });
+                $.ajax({
+                    url: "https://masterinfotech.com/api/verify-token",
+                    type: "post",
+                    headers: { 'token': token },
+                    data: formDataObject,
+                    success: function (response) {
+                        console.log(response + "MIT ");
+                        window.location.href = "https://service.masterinfotech.com/thankyou/";
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        console.log(errorThrown + "MIT ");
+                    }
+                });
+            }
+
         });
     });
 });
@@ -78,3 +98,11 @@ function isValidEmail(email) {
 function isUndefined(variable) {
     return typeof variable === "undefined";
 }
+
+
+    // ! how we will show the response? redirect or popup key setting. 
+    // !add loading animation. 
+    // !disable submit button for 2 sec.
+    // !write something about naming classes.
+    // !chatgpt tips - ask for optimsations, solutions.
+    // !resposive images guide
