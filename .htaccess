@@ -1,10 +1,20 @@
 <IfModule mod_rewrite.c>
-RewriteEngine On
-#RewriteCond %{REQUEST_FILENAME} !-f
-#RewriteCond %{REQUEST_FILENAME} !-d
-#RewriteRule . /index.html [L]
-RewriteRule ^branding-india/$ /branding-page-india.html [L]
-RewriteRule ^thankyou/$ /thankyou.html [L]
-RewriteRule ^website-design-company/$ /website-design-company.html [L]
-
+    RewriteEngine On
+    #RewriteCond %{REQUEST_FILENAME} !-f
+    #RewriteCond %{REQUEST_FILENAME} !-d
+    #RewriteRule . /index.html [L]
+    <!-- B -->
+    RewriteRule ^branding/$ /branding-page-usa.html [L]
+    <!-- D -->
+    RewriteRule ^dating-app-development/$ /dating-app-development.html [L]
+    <!-- G -->
+    RewriteRule ^grocery-app/$ /grocery-app.html [L]
+    <!-- T -->
+    RewriteRule ^thankyou/$ /thankyou.html [L]
+    <!-- O -->
+    RewriteRule ^OTT-Platform/$ /ott-platform.html [L]
+    <!-- W -->
+    RewriteRule ^website-design-company/$ /website-design-company.html [L]
+    
 </IfModule>
+    
