@@ -148,7 +148,7 @@ button {
     padding: 12px 10px;
     border:solid 1px #303030;
 }
-.services button , .transform button{ width: 190px;}
+.services button , .transform button,.banr button{ width: 190px;}
 
 button a {
     padding: 12px 12px;
