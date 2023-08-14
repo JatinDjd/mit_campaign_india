@@ -3,17 +3,17 @@
     #RewriteCond %{REQUEST_FILENAME} !-f
     #RewriteCond %{REQUEST_FILENAME} !-d
     #RewriteRule . /index.html [L]
-    <!-- B -->
+    # B
     RewriteRule ^branding/$ /branding-page-usa.html [L]
-    <!-- D -->
+    # D
     RewriteRule ^dating-app-development/$ /dating-app-development.html [L]
-    <!-- G -->
+    # G
     RewriteRule ^grocery-app/$ /grocery-app.html [L]
-    <!-- T -->
+    # T
     RewriteRule ^thankyou/$ /thankyou.html [L]
-    <!-- O -->
+    # O
     RewriteRule ^OTT-Platform/$ /ott-platform.html [L]
-    <!-- W -->
+    # W
     RewriteRule ^website-design-company/$ /website-design-company.html [L]
     
 </IfModule>
