@@ -1,6 +1,6 @@
-# Campaign India Readme
+# Campaign Readme
 
-Welcome to the **Campaign India** repository! This repository houses the codebase for our web project, focusing on streamlined design and development practices. Below, you'll find essential information on how to navigate, contribute, and maintain this repository.
+Welcome to the **Campaign** repository! This repository houses the codebase for our web project, focusing on streamlined design and development practices. Below, you'll find essential information on how to navigate, contribute, and maintain this repository.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Welcome to the **Campaign India** repository! This repository houses the codebas
 
 ## Introduction
 
-This repository contains the source code for the **Campaign India** web project. It's aimed at delivering elegant and efficient web designs while maintaining consistent styling throughout the application.
+This repository contains the source code for the **Campaign** web project. It's aimed at delivering elegant and efficient web designs while maintaining consistent styling throughout the application.
 
 ## Folder Structure
 
@@ -86,7 +86,7 @@ Please ensure your contributions adhere to our coding standards and practices.
 
 For any queries or assistance related to this repository, feel free to contact me at `sahil@masterinfotech.com`.
 
-Thank you for being a part of the **Campaign India** development team!
+Thank you for being a part of the **Campaign** development team!
 
 ---
 *Note: This README serves as a basic template. Feel free to enhance and tailor it to your project's specific needs. Contact admin for making chnages in readme file. Learn markdown here https://www.markdownguide.org/basic-syntax/*
