@@ -57,6 +57,7 @@ root/ \
 ## Media Files
 
 We avoid cluttering the repository with media files. Instead, use live URLs to include images. Developers can upload images to `upload.masterinfotech.com` and acquire the media URL for integration into the project.
+`upload.masterinfotech.com` will only allow limited images extantions. Please use this software to convert image files into webp format. https://www.xnview.com/en/xnconvert/#downloads 
 
 ## Template Folder
 
@@ -75,7 +76,12 @@ Please ensure your contributions adhere to our coding standards and practices.
 ## Key Points for Frontend Devs
 
 1. Do not use `@import` fonts in css files. Use `<link>` tags.
+2. Making images responsive. Atleast make landing image and images above 100kb size have a resposive size to it. https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
 
+## Reserved CSS Classes
+1. `MIC-campaign-form`
+2. `MIC-error-message hide intl-error`
+3. `intl-phone`
 ## Getting Support
 
 For any queries or assistance related to this repository, feel free to contact me at `sahil@masterinfotech.com`.
