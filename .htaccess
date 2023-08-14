@@ -13,7 +13,7 @@
     RewriteRule ^thankyou/$ /thankyou.html [L]
     # O
     RewriteRule ^OTT-Platform/$ /ott-platform.html [L]
-    # Ws
+    # W
     RewriteRule ^website-design-company/$ /website-design-company.html [L]
     
 </IfModule>
