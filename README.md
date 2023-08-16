@@ -10,8 +10,8 @@ Welcome to the **Campaign** repository! This repository houses the codebase for 
 - [Media Files](#media-files)
 - [Template Folder](#template-folder)
 - [Contributing](#contributing)
-- [Contributing](#key-points-for-frontend-devs)
-- [Contributing](#deployment-process)
+- [Key Points for Frontend Devs](#key-points-for-frontend-devs)
+- [Deployment Process](#deployment-process)
 - [Getting Support](#getting-support)
 
 ## Introduction
