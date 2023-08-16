@@ -57,7 +57,7 @@ root/ \
 - `specific-page.css`: A specific CSS file for each distinct page (e.g., `web-design.css`) to keep styles separate and organized. (CSS or JS file must be named after the page it is going to be included.)
 - `footer1.css`: Use incremental numeric values if you want to have multiple versions of a specific component. Avoid using keywords like "footer-new".
 
-### Reserved CSS Classes
+#### Reserved CSS Classes
 Don't use below listed class names to design any specific webpage. Only use it while creating a common css for all project pages.
 1. `MIC-campaign-form`
 2. `MIC-error-message hide intl-error`
@@ -91,10 +91,9 @@ Please ensure your contributions adhere to our coding standards and practices.
 
 ## Deployment Process
 
+>!! Don't make code changes on live server. It will result in unmerged files and Sever Admin will be required to fix it. DON'T DO IT ON LIVE.
+
 To deploy the latest changes to the live site:
-
-!! Don't make code changes on live server. It will result in unmerged files and Sever Admin will be required to fix it. DON'T DO IT ON LIVE.
-
 1. Log in to `https://techbuyhelp.com/cpanel` (campgain_usa is hosted on masterinfotech.co/cpanel and campaign_uk will be auto deployed).
 2. Search for "Git Version Control".
 3. Inside, locate the repository named `mit_campaign_india` (`campaign_usa` in case of masterinfotech.co/cpanel) and click "Manage".
@@ -102,7 +101,7 @@ To deploy the latest changes to the live site:
 5. Click the "Update from Remote" button.
 6. Finally, click the "Deploy HEAD Commit" button.
 
-If after taking pull on live, changes are not still visible then please plush the cache on CloudFlare. You can also flush it by openig the link provided to you in the group.
+If after taking pull on live, changes are still not visible then please purge the cache on CloudFlare. You can also purge it by opening the link provided to you in the group.
 ## Getting Support
 
 For any queries or assistance related to this repository, feel free to contact me at `sahil@masterinfotech.com`.
