@@ -99,7 +99,7 @@ input::-webkit-inner-spin-button {
 .creative-boost-details form{
 
     display:flex;
-    margin-top:4rem;
+    margin-top:5.5rem;
     width:100%;
 }
 
@@ -258,6 +258,11 @@ input::-webkit-inner-spin-button {
     .form-right {
         margin-left: 7rem;
     }
+
+    .creative-boost-details form{
+        margin-top:3.5rem;
+        
+    }
 }
 
 @media screen and (max-width:1440px){
@@ -293,7 +298,7 @@ input::-webkit-inner-spin-button {
 
     .creative-boost-left-header h1 {
         letter-spacing:1px;
-        line-height:80px;
+        line-height:76px;
     }
 
     .form-right label {
@@ -314,7 +319,7 @@ input::-webkit-inner-spin-button {
     }
 
     .creative-boost-left-header h1 {
-        line-height:69px;
+        line-height:68px;
         font-size: 58px;
     }
 
@@ -514,6 +519,11 @@ input::-webkit-inner-spin-button {
     .form-left input {
         margin-bottom: 2rem;
         padding-bottom: 0.5rem;
+    }
+
+    .creative-boost-left-header h1 {
+        font-size: 44px;
+        line-height: 50px;
     }
 }
 
