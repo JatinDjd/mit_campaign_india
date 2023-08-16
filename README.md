@@ -10,6 +10,8 @@ Welcome to the **Campaign** repository! This repository houses the codebase for 
 - [Media Files](#media-files)
 - [Template Folder](#template-folder)
 - [Contributing](#contributing)
+- [Contributing](#key-points-for-frontend-devs)
+- [Contributing](#deployment-process)
 - [Getting Support](#getting-support)
 
 ## Introduction
@@ -53,11 +55,19 @@ root/ \
 - `navbar.css`: Contains styles for the navigation bar.
 - `footer.css`: Contains styles for the footer section.
 - `specific-page.css`: A specific CSS file for each distinct page (e.g., `web-design.css`) to keep styles separate and organized. (CSS or JS file must be named after the page it is going to be included.)
+- `footer1.css`: Use incremental numeric values if you want to have multiple versions of a specific component. Avoid using keywords like "footer-new".
 
+### Reserved CSS Classes
+Don't use below listed class names to design any specific webpage. Only use it while creating a common css for all project pages.
+1. `MIC-campaign-form`
+2. `MIC-error-message hide intl-error`
+3. `intl-phone`
 ## Media Files
 
 We avoid cluttering the repository with media files. Instead, use live URLs to include images. Developers can upload images to `upload.masterinfotech.com` and acquire the media URL for integration into the project.
 `upload.masterinfotech.com` will only allow limited images extantions. Please use this software to convert image files into webp format. https://www.xnview.com/en/xnconvert/#downloads 
+
+If you still want to use images in you local for your comfort then please add images folder to `.gitignore` file.
 
 ## Template Folder
 
@@ -78,10 +88,21 @@ Please ensure your contributions adhere to our coding standards and practices.
 1. Do not use `@import` fonts in css files. Use `<link>` tags.
 2. Making images responsive. Atleast make landing image and images above 100kb size have a resposive size to it. https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
 
-## Reserved CSS Classes
-1. `MIC-campaign-form`
-2. `MIC-error-message hide intl-error`
-3. `intl-phone`
+
+## Deployment Process
+
+To deploy the latest changes to the live site:
+
+!! Don't make code changes on live server. It will result in unmerged files and Sever Admin will be required to fix it. DON'T DO IT ON LIVE.
+
+1. Log in to `https://techbuyhelp.com/cpanel` (campgain_usa is hosted on masterinfotech.co/cpanel and campaign_uk will be auto deployed).
+2. Search for "Git Version Control".
+3. Inside, locate the repository named `mit_campaign_india` (`campaign_usa` in case of masterinfotech.co/cpanel) and click "Manage".
+4. Click the "Pull or Deploy" tab.
+5. Click the "Update from Remote" button.
+6. Finally, click the "Deploy HEAD Commit" button.
+
+If after taking pull on live, changes are not still visible then please plush the cache on CloudFlare. You can also flush it by openig the link provided to you in the group.
 ## Getting Support
 
 For any queries or assistance related to this repository, feel free to contact me at `sahil@masterinfotech.com`.
