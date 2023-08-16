@@ -1,7 +1,7 @@
 // common-ajax-script.js
 
 document.addEventListener("DOMContentLoaded", function () {
-    const forms = document.querySelectorAll(".campaign-form");
+    const forms = document.querySelectorAll(".MIC-campaign-form");
     forms.forEach(form => {
         form.addEventListener("submit", function (event) {
             event.preventDefault();

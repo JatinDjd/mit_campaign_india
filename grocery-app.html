@@ -8,18 +8,18 @@
 	<meta name="description" content="Master Infotech provie complete web portal development services, a top online portal development firm to help your customers. Grab information and contact Master Infotech.">
 	<meta name="keywords" content="web portal development services, web portal development company, b2b portal development, custom web portal development">
 	<link rel="canonical" href="https://masterinfotech.com/who-we-are" />
-    <link rel="stylesheet" href="assets/css/navbar.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
-	  <link rel="stylesheet" href="assets/css/grocery-app.css">
+    <link rel="stylesheet" href="/assets/css/navbar.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/slick-theme.css">
+	  <link rel="stylesheet" href="/assets/css/grocery-app.css">
     <link rel="icon" href="https://cdn.masterinfotech.com/assets/images/favicon.png" type="image/gif">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/css/intlTelInput.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/css/intlTelInput.css">
     <link rel="stylesheet" href="/assets/css/intlTelInput.css?<?php echo time(); ?>">
   
-    <script src="https://masterinfotech.com/assets/js/intlTelInput.js?<?php echo time(); ?>"></script>
+    <script src="https://masterinfotech.com/assets/js/intlTelInput.js?<?php echo time(); ?>"></script> -->
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -27,6 +27,14 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-KS3NR9WP');</script>
   <!-- End Google Tag Manager -->
+  <style>
+    .iti__selected-dial-code{
+      color:white !important;
+    }
+    .iti{
+      width: 100%;
+    }
+  </style>
   </head>
 
 <body>
@@ -37,7 +45,7 @@
      <header>
         <nav>
             <div class="logo">
-                <a href="https://www.masterinfotech.com/"><img src="https://cdn.masterinfotech.com/assets/images/logo-black.webp" alt="Logo Image"></a>
+                <a href="https://www.masterinfotech.com/"><img src="https://cdn.masterinfotech.com/assets/logo-black.webp" alt="Logo Image"></a>
             </div>
             <!-- <div class="hamburger">
                 <div class="line1"></div>
@@ -433,33 +441,46 @@
           <div class="slider-mobile" >
             <div class="content_img " >
               <img src='https://cdn.masterinfotech.com/assets/images/grocery-app/mobile-screen.webp' >
+
             </div>
+           
           </div> 
            
           <div class="industry">
+
+          
             <div class="indus-list">
+  
               <div class="content_img ">
                 <img src='https://cdn.masterinfotech.com/assets/images/grocery-app/grocery_cart.webp'>
               </div>
+             
             </div>
   
             <div class="indus-list">
               <div class="content_img ">
-                <img src='https://cdn.masterinfotech.com/assets/images/grocery-app/grocery_home.webp'> 
-              </div>             
+                <img src='https://cdn.masterinfotech.com/assets/images/grocery-app/grocery_home.webp'>
+  
+              </div>
+             
             </div>
   
             <div class="indus-list">
               <div class="content_img ">
                 <img src='https://cdn.masterinfotech.com/assets/images/grocery-app/grocery_profile.webp'>
-              </div>  
+  
+              </div>
+              
             </div>
-
+  
             <div class="indus-list">
               <div class="content_img ">
                 <img src='https://cdn.masterinfotech.com/assets/images/grocery-app/grocery_vender.webp'>
+  
               </div>
+              
             </div>
+
   
             <div class="indus-list">
               <div class="content_img ">
@@ -533,15 +554,25 @@
             <div>
               <h3>Get started with <b style="color:#f05123;">Grocery App</b> Development today!</h3>
                
-              <h4>Take the First Step</h4>
+              <h4>Take the First Step
+              </h4>
             </div> 
             <div>
-              <div><input id="form-field-name" type="text" placeholder="Name"></div>
-              <div><input id="form-field-email" type="email" placeholder="Email"></div>
-              <div><input id="form-field-b26ecb6" type="text" placeholder="Phone"></div>
-              <div id="footer-form-error"></div>
-              <div class="submit-btn"><button type="submit" id="new-form-submit-btn" class="white-btn">Let's Connect</button></div>
-            </div>
+              <form action="" class="MIC-campaign-form">
+                <div><input  type="text" name="name" placeholder="Name" id="userName"></div>
+                <div class="MIC-error-message" data-for="name"></div>
+
+                <div><input  type="email" name="email" placeholder="Email" id="userEmail"></div>
+                <div class="MIC-error-message" data-for="email"></div>
+
+                <div><input  type="number" name="phone" placeholder="Phone" class="intl-phone" id="userPhone"></div>
+                <div class="MIC-error-message hide intl-error" data-for="phone"></div>
+
+                <div class="submit-btn"><button type="submit" id="new-form-submit-btn" class="white-btn">Let's
+                        Connect</button></div>
+                        <div class="MIC-error-message" data-for="error"></div>
+                </form>
+              </div>
 
         </div>
         <!-- <div class="footer-client">
@@ -604,7 +635,7 @@
               
          </div>
 
-      </div>
+     </div>
       </div>
        
       </footer>
@@ -613,7 +644,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
       <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-      <script src="assets/js/slick.js" type="text/javascript" charset="utf-8"></script>
+      <script src="/assets/js/slick.js" type="text/javascript" charset="utf-8"></script>
       <!-- <script src="https://masterinfotech.com/assets/js/intlTelInput.js?<?php echo time(); ?>"></script> -->
 	  <script>
 		$(function() {
@@ -639,7 +670,7 @@
 		<script type="text/javascript">
 		
 	
-	AOS.init();
+	// AOS.init();
 	
 	
 		</script>
@@ -693,263 +724,8 @@
       });
     });
   </script>
-
-     
+      <script src="/templates/telephone_flags/script.js"></script>
+      <script src="/templates/form/script.js"></script>
+     </body>
+     </html>
     
-    <script>
-    function DropDown(el) {
-        this.dd = el;
-        this.placeholder = this.dd.children('span');
-        this.opts = this.dd.find('ul.drop li');
-        this.val = '';
-        this.index = -1;
-        this.initEvents();
-    }
-    
-    DropDown.prototype = {
-        initEvents: function () {
-            var obj = this;
-            obj.dd.on('click', function (e) {
-                e.preventDefault();
-                e.stopPropagation();
-                $(this).toggleClass('active');
-            });
-            obj.opts.on('click', function () {
-                var opt = $(this);
-                obj.val = opt.text();
-                obj.index = opt.index();
-                obj.placeholder.text(obj.val);
-                opt.siblings().removeClass('selected');
-                opt.filter(':contains("' + obj.val + '")').addClass('selected');
-            }).change();
-        },
-        getValue: function () {
-            return this.val;
-        },
-        getIndex: function () {
-            return this.index;
-        }
-    };
-    
-   
-    
- 
-    
-    // on keyup / change flag: reset
-    input.addEventListener('change', reset);
-    input.addEventListener('keyup', reset);
-        
-    var pagename = window.location.href ;	
-        
-        function validateForm() {
-                var valid = true;
-                if (isFormValid()) {
-                    console.log('in if');
-                    var name = $("#new_name").val();
-                    var email = $("#new_email").val();
-                    var mob = $("#new_phone").val();
-                    var code = footercode;
-                    var phone = "+" + code + "-" + mob;
-                    var msg = 'null';
-                    //var service = 'null';
-                    var service = $("#new_service").val();
-                    
-                    //var budget = $("#budgetfoot").val();
-                    var budget = 'null';
-                    var values = {"name":name,"email":email,"phone":phone,"message":msg,"service":service,"budget":budget,"pagename":pagename};
-                    
-                    console.log(values);
-                    $.ajax({
-                    url: "mail.php",
-                    type: "post",
-                    data: values ,
-                    success: function (response) {
-                        console.log(response);
-                        sendmail(values);
-                    //$(".success").html("Thank you for your enquiry. We will revert you soon.");
-                    window.location.href= "thankyou.php";
-                    valid = false;
-                    },
-                    error: function(jqXHR, textStatus, errorThrown) {
-                    console.log(textStatus, errorThrown);
-                    console.log(res);				
-                 // alert("Your form fields are validated. Now you can implement insert logic");
-                }
-                });
-                    
-                }
-         }
-        
-        function isFormValid() {
-            
-            //Initially default values;
-                errorMessage = "";
-                $(".error").html("");
-                var isValid = true;
-                var regName = /^[a-zA-Z ]+$/;
-                var regemail=  /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-                var regphn = /^[0-9]*$/;
-                
-        
-                //Validate First name
-                if ($("#new_name").val() == "") {
-                    $("#new_name").siblings("#new_error_name").html("Please Enter Your Name")
-                    isValid = false;
-                }
-                else {
-                    if (!regName.test($("#new_name").val())) {
-                        $("#new_name").siblings("#new_error_name").html("Please Enter Your Valid Name")
-                        isValid = false;
-                    }
-                }
-                
-                 if ($("#new_email").val() == "") {
-                    $("#new_email").siblings("#new_error_email").html("Please Enter Your Email ")
-                    isValid = false;
-                }
-                else {
-                    if (!regemail.test($("#new_email").val())) {
-                        $("#new_email").siblings("#new_error_email").html("Please Enter Your Valid Email")
-                        isValid = false;
-                    }
-                }
-                        
-                 if ($("#new_phone").val() == "" || $("#new_phone").val() == null ) {
-                    $("#new_phone").siblings("#new_error_phone").html("Please Enter Your Phone Number")
-                    isValid = false;
-                }
-        
-                 else if(isvalidformfooter == 0){
-                    isValid = false;
-                }
-                
-                /* if ($("#budgetfoot").val() == "none") {
-                    $("#error_budgetfoot").html("Please Select A Budget ")
-                    isValid = false;
-                } */
-                    if ($("#new_service").val() == "none") {
-                    $("#new_error_service").html("Please Select A Service ")
-                    isValid = false;
-                }
-                // console.log(verifythiscaptcharesponse);
-                // if(verifythiscaptcharesponse == "" || verifythiscaptcharesponse == null ){
-                // 	$("#captcha").siblings(".error").html("Please Select Checkbox")
-                // 	isValid = false;
-                // } 
-             return isValid;
-        }
-    
-        </script>
-        <script src="https://masterinfotech.com/landingpages/sendmailfunction.js" type="text/javascript"></script>
-        <script>
-          var submitbtn = document.getElementById('new-form-submit-btn');		
-submitbtn.addEventListener('click', function(e){		
-  e.preventDefault();		
-  validateform();
-}		
-);		
-
-function validateform(){
-
-    // Check if all required fields are filled out
-      var isValid = true;
-      $("#footer-form input[required]").each(function () {
-        if ($(this).val().trim() === "") {
-          isValid = false;
-        }
-      });
-
-      // If any required field is empty, show an error message and prevent submission
-      if (!isValid) {
-        $("#footer-form-error").html("Please fill out all required fields.").css("color", "red");
-        return;
-      }else{
-          generatetoken();		
-      }
-}
-
-function generatetoken() {		
- 		
-
-  $.ajax({		
-   url: "https://masterinfotech.com/api/generate-token",		
-   type: "post",		
-   success: function(response) {		
-    console.log(response);		
-    if (response.token) {		
-     submitform(response.token);		
-     console.log('submitform done');		
-    } 		
-   },		
-   error: function(jqXHR, textStatus, errorThrown) {		
-    console.log(textStatus, errorThrown); }		
-  });		
-
-}		
-
-let ipAddressValue;
-
-    function getIpAddress(callback) 
-      {
-          $.ajax({		
-            url: "https://masterinfotech.com/api/get-ip",		
-            type: "get",		
-            success: function(response) {		
-              callback(response);
-            },		
-            error: function(jqXHR, textStatus, errorThrown) {		
-             console.log('Failed to fetch IP address', errorThrown);
-             callback(null);	
-            }
-           });
-
-      }
-
-      // Example usage (same as before)
-      getIpAddress(function(ipAddress) {
-        if (ipAddress) {
-          console.log('IP Address:', ipAddress);
-          ipAddressValue = returnip(ipAddress);
-
-
-        } else {
-          console.log('Failed to get IP address.');
-        }
-      });
-
-      function returnip(ip)
-      {
-        return ip ;
-      }
-
-function submitform(token) {		
-
-  var name = $("#form-field-name").val();		
-  var email = $("#form-field-email").val();		
-  var phone = $("#form-field-b26ecb6").val();		
-  var pagename = window.location.href;
-  var values = {		
-   "name": name,		
-   "email": email,		
-   "phone": phone,
-   "pagename": pagename,
-   "location": ipAddressValue,
-   "campaign_name": "Web design campaign india"	
-  };		
-  		
-  $.ajax({		
-   url: "https://masterinfotech.com/api/verify-token",		
-   type: "post",		
-   headers:{'token':token},		
-   data: values,		
-   success: function(response) {		
-    console.log(response + "MIT ");		
-window.location.href = "https://service.masterinfotech.com/thankyou.html";		
-   },		
-   error: function(jqXHR, textStatus, errorThrown) {		
-    console.log(errorThrown + "MIT ");}		
-  });		
-
-
- }
-        </script>
