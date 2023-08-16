@@ -11,7 +11,7 @@ Welcome to the **Campaign** repository! This repository houses the codebase for 
 - [Template Folder](#template-folder)
 - [Contributing](#contributing)
 - [Key Points for Frontend Devs](#key-points-for-frontend-devs)
-- [Changing Slug/Url](#changing-slug/url)
+- [Changing Slug/Url](#changing-slug-url)
 - [Deployment Process](#deployment-process)
 - [Getting Support](#getting-support)
 
@@ -90,8 +90,8 @@ Please ensure your contributions adhere to our coding standards and practices.
 2. Making images responsive. Atleast make landing image and images above 100kb size have a resposive size to it. https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
 
 ## Changing Slug/Url
-You can change the slug of any page by using `.htaccess` file.
- `RewriteRule ^changed-slug/$ /page_name.html [L]`
+You can change the slug of any page by using `.htaccess` file. \
+ `RewriteRule ^changed-slug/$ /page_name.html [L]` \
  Add this line in the file and push the code.
 ## Deployment Process
 
