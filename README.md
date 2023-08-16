@@ -21,7 +21,7 @@ This repository contains the source code for the **Campaign** web project. It's 
 
 ## Folder Structure
 
-The repository follows a structured organization to ensure clarity and maintainability. Here's a high-level overview:
+The repository is structured as such to ensure clarity and easy navigation. Here's a high-level overview:
 
 root/ \
 ├── assets/ \
@@ -72,7 +72,7 @@ If you still want to use images in you local for your comfort then please add im
 
 ## Template Folder
 
-The `template` folder is vital for maintaining consistency and reducing redundant code. Please refrain from altering its contents. Use it as a reference or copy templates when creating new elements like headers, footers, forms, and validation codes.
+The `template` folder is vital for maintaining consistency and reducing redundant code. These are to be used as a reference code/templates when creating new elements like headers, footers, forms, and validation codes for capains. We recomend to use these as plug and play code blocks rather than you trying to reinvent the wheel by modyfying or creating new ones.
 
 ## Contributing
 
