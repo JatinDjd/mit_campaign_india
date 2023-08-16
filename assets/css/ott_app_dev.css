@@ -1018,10 +1018,6 @@ img {
     .plat-list {
         padding-right: 110px;
     }
-
-    .form-left {
-        padding-left: 2rem;
-    }
 } 
 
 @media screen and (max-width:1200px){
@@ -1259,11 +1255,6 @@ img {
 
     .cs-container{
         padding:0rem 4rem;
-    }
-
-    .creative-boost-left-header h1 {
-        font-size: 45px;
-        line-height: 70px;
     }
 }
 
