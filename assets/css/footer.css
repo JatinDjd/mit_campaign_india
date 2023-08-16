@@ -183,30 +183,31 @@ footer{
     font-size: 40px;padding:1.5rem 0rem;}
     .footer-contact-form h4 {
         font-size: 16px;}
-        .footer-contact-form,.footer-last{flex-wrap:wrap;}
-        .footer-contact-form>div,.footer-last>div{width:100%;}
-        .footer-contact-form>div:last-child {
-            padding-top: 2rem;
-            padding-left: 0rem;
-        }
-        .footer-contact-form {
-            padding-top: 2rem;
-            padding-bottom: 2rem;
-        }
-        .footer-last>div:last-child {
-            text-align: left;
-        }
-        .white-btn{font-size:14px;}
-        .client-pt p {
-            font-size: 14px;}
-        .client-hd h2{font-size:28px;}
-        .client-hd p {
-            font-size: 18px;}
-        .client-pt{width:100%;padding: 1rem 0rem ;}    
-        .client-img h4 {
-            font-size: 18px;}
-        .client-list{padding:02rem 0rem 2rem;}   
-        .footer-client{padding:0rem;} 
+    .footer-last{padding-bottom:3rem;}
+    .footer-contact-form,.footer-last{flex-wrap:wrap;}
+    .footer-contact-form>div,.footer-last>div{width:100%;}
+    .footer-contact-form>div:last-child {
+        padding-top: 2rem;
+        padding-left: 0rem;
+    }
+    .footer-contact-form {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .footer-last>div:last-child {
+        text-align: left;
+    }
+    .white-btn{font-size:14px;}
+    .client-pt p {
+        font-size: 14px;}
+    .client-hd h2{font-size:28px;}
+    .client-hd p {
+        font-size: 18px;}
+    .client-pt{width:100%;padding: 1rem 0rem ;}    
+    .client-img h4 {
+        font-size: 18px;}
+    .client-list{padding:02rem 0rem 2rem;}   
+    .footer-client{padding:0rem;} 
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px){	
 	:root {
