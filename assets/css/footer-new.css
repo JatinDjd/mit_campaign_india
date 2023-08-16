@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@275;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.cs-container{
+
+    width:100%;
+    margin:0px auto;
+    padding:0px 120px;
+}
+
+span{
+
+    color:#f05123;
+    
+}
+body{
+
+    font-family:'Poppins';
+}
+
+.cs-row{
+
+    display:flex;
+    flex-wrap:wrap;
+}
+
+/* ceative boost section form */
+
+/* code to remove arrows from input type number */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.creative-boost-section{
+
+    width:100%;
+    padding:150px 0px;
+    background:#303030;
+}
+
+.creative-boost{
+
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    /* align-items:center; */
+}
+
+.creative-boost-left{
+
+    width:40%;
+
+}
+
+.creative-boost-right{
+
+    width:60%;
+    display:flex;
+    margin-top:0.5rem;
+    flex-direction:column;
+}
+
+.creative-boost-left-header h1 {
+    
+    font-size: 70px;
+    line-height: 87px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 5px;
+    max-width:580px;
+}
+
+.creative-boost-right-header p{
+
+    font-family:'Inter';
+    font-weight:400;
+    font-size:30px;
+    line-height:37px;
+    text-align:center;
+    color:white;
+    letter-spacing:3px;
+}
+
+.creative-boost-details{
+
+    width:100%;
+}
+
+.creative-boost-details form{
+
+    display:flex;
+    margin-top:5.5rem;
+    width:100%;
+}
+
+.form-left{
+
+    font-family:'Inter';
+    font-weight:400;
+    font-size:28px;
+    line-height:33px;
+    color:white;
+    width:50%;
+}
+
+.form-right{
+
+    width:50%;
+    margin-left:10rem;
+}
+
+.form-left input {
+    background: #303030;
+    font-family: 'Inter';
+    font-weight: 400;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    letter-spacing: 3px;
+}
+
+.creative-boost-section .btn-footer{
+
+    width:80%;
+    display:inline-block;
+    padding:0.7rem 5rem;
+    text-align:center;
+    font-family:'Poppins';
+    font-weight:300;
+    letter-spacing:3px;
+}
+
+.creative-boost-right-header span{
+
+    color:white;
+}
+
+.btn-footer{
+
+    font-weight:300;
+    font-size:28px;
+    line-height:33.04px;
+    border:1px solid white;
+    padding:5px 65px;
+    /* color:white; */
+}
+
+.btn-footer:hover{
+
+    background:white;
+    color:black;
+    /* padding:5px 65px; */
+}
+
+.form-right a{
+
+    text-decoration:none;
+    color:white;
+}
+
+.form-right textarea{
+
+    width:100%;
+    letter-spacing:3px;
+}
+.form-right a img{
+
+    display:none;
+}
+
+.form-right a:hover img{
+
+    display:inline-block;
+}
+
+.form-right label{
+
+    font-weight:400;
+    font-size:20px;
+    line-height:24px;
+    color:white;
+    font-family:'Inter';
+    letter-spacing:3px;
+
+}
+
+.form-right textarea{
+
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:1px solid white;
+    background:#303030;
+    outline:none;
+    font-family:'Inter';
+    font-weight:400;
+    font-size:28px;
+    line-height:33px;
+    color:white;
+    margin-bottom:1.2rem;
+
+}
+
+
+
+.creative-boost-section .btn{
+
+    width:80%;
+    display:inline-block;
+    padding:0.7rem 6rem;
+    text-align:center;
+}
+
+@media screen and (max-width:1600px){
+
+    .cs-container{
+
+        padding:0px 100px;
+    }
+
+    .creative-boost-section {
+        width: 100%;
+        padding: 100px 0px;
+    }
+
+    .creative-boost-section .btn-footer {
+        padding: 0.7rem 3rem;
+    }
+
+    .creative-boost-right{
+
+        padding-left:4rem;
+    }
+
+    .creative-boost-left-header h1 {
+        font-size: 60px;
+        line-height: 78px;
+    }
+
+    .form-right {
+        margin-left: 7rem;
+    }
+
+    .creative-boost-details form{
+        margin-top:3.5rem;
+        
+    }
+}
+
+@media screen and (max-width:1440px){
+
+    
+    .creative-boost-section .btn-footer {
+        padding: 0.5rem 2rem;
+    }
+
+    .creative-boost-left-header h1{
+
+        letter-spacing:2px;
+        font-size:60px;
+    }
+
+    .creative-boost-right-header p {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+}
+
+@media screen and (max-width:1366px){
+
+    .cs-container{
+
+        padding:0px 80px;
+    }
+
+    .creative-boost-section {
+        padding: 80px 0px;
+    }
+
+    .creative-boost-left-header h1 {
+        letter-spacing:1px;
+        line-height:76px;
+    }
+
+    .form-right label {
+        font-size: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width:1280px){
+
+    .creative-boost-details form {
+        margin-top: 1.5rem;
+    }
+
+    .creative-boost-section .btn-footer {
+        padding: 0.5rem 1rem;
+    }
+
+    .creative-boost-left-header h1 {
+        line-height:68px;
+        font-size: 58px;
+    }
+
+    .form-right label {
+        font-size: 19px;
+    }
+
+    .creative-boost-right {
+        padding-left: 3rem;
+    }
+}
+
+@media screen and (max-width:1200px){
+
+
+
+    .creative-boost-section .btn-footer {
+        padding: 0.5rem 1rem;
+    }
+
+    .creative-boost-right-header p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .form-right label {
+        font-size: 18px;
+    }
+
+    .btn-footer {
+        font-size: 24px;
+        line-height: 30.04px;
+    }
+
+    .form-right textarea {
+
+        margin-bottom:1.5rem;
+    }
+
+    .form-left input {
+
+        font-size:18px;
+    }
+
+    .creative-boost-left-header h1 {
+        font-size: 54px;
+    }
+
+}
+
+@media screen and (max-width:1024px){
+
+    .cs-container {
+        padding: 0px 60px;
+    }
+
+    .creative-boost-section {
+        padding: 60px 0px;
+    }
+
+    .creative-boost-left-header h1 {
+        font-size: 45px;
+        line-height:71px;
+    }
+
+    .form-right label {
+        font-size: 15px;
+    }
+
+    .form-left input {
+        font-size: 16px;
+    }
+
+    .creative-boost-section .btn-footer {
+        padding: 0.5rem 0.5rem;
+    }
+
+    .creative-boost-right {
+        padding-left: 2rem;
+    }
+
+    .form-right {
+        margin-left: 5rem;
+    }
+}
+
+@media screen and (max-width:991px){
+
+    .creative-boost-section {
+        padding: 45px 0px;
+    }
+
+    .cs-container{
+
+        padding:0px 45px;
+    }
+
+    .form-right {
+        margin-left: 4rem;
+    }
+}
+
+@media screen and (max-width:820px){
+
+    
+    .creative-boost{
+
+        display:flex;
+        flex-direction:column;
+    }
+
+    .creative-boost-left{
+
+        width:100%;
+    }
+
+    .creative-boost-right{
+
+        width:100%;
+    }
+
+    .creative-boost-left-header h1{
+
+        max-width:100%;
+        font-size:45px;
+        line-height:55px;
+        margin-bottom:2rem;
+    }
+
+    .creative-boost-right-header p {
+        font-size: 28px;
+        line-height: 37px;
+    }
+
+    .form-right label {
+        font-size: 20px;
+        line-height:24px;
+    }
+
+    .form-left input {
+        font-size: 20px;
+        line-height:24px;
+    }
+
+    .creative-boost-details form {
+        margin-top: 3.5rem;
+    }
+
+    .creative-boost-right {
+        padding-left: 0rem;
+    }
+
+    .form-right {
+        margin-left: 8rem;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .creative-boost-left-header h1 {
+        font-size: 44px;
+        line-height:60px;
+    }
+}
+
+@media screen and (max-width:575px){
+
+    .cs-container {
+        padding: 0px 30px;
+    }
+
+    .creative-boost-section {
+        padding: 30px 0px;
+    }
+
+    .creative-boost-details form{
+
+        display:flex;
+        flex-direction:column;
+    }
+
+    .form-left{
+
+        width:100%;
+    }
+
+    .form-right{
+
+        width:100%;
+        margin-left:0rem;
+    }
+
+    .form-right .btn-footer {
+        width: 50%;
+    }
+
+    .form-left input {
+        margin-bottom: 2rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .creative-boost-left-header h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width:414px){
+
+    .cs-container{
+
+        padding:0px 15px;
+    }
+
+    .creative-boost-section {
+        padding: 15px 0px;
+    }
+
+    .creative-boost-left-header h1 {
+        font-size: 30px;
+        line-height: 40.8px;
+        letter-spacing:3px;
+    }
+
+    .creative-boost-right-header p {
+        
+        font-size: 30px;
+    }
+
+.form-left input {
+   
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+}
