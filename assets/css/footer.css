@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -28,9 +29,28 @@
 footer{
     background-color:#303030;
     padding:var(--main-pad);
+    margin-top: 5rem;
 }
-.footer-contact-form{display:flex;padding-top:7rem;padding-bottom:5rem;}
-
+.footer-new {
+    padding: 5rem 0rem;
+    display: flex;
+    flex-wrap: wrap; align-items: center;
+    justify-content: space-between;
+}
+.footer-new > div:first-child {  width: 32%;}
+.footer-new > div:last-child {   width: 60%;}
+.footer-contact-form form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 0rem;
+}
+.footer-contact-form form span { width: 46%;}
+footer h2 { color: #fff;font-size: 65px;  font-weight: 400;line-height: 1.3;}
+footer h2 span{    font-weight: 700;}
+.iti {width: 100%;}
+.iti__selected-dial-code {color: #c7c8c9;}
+.iti__arrow {  color: #fff; border-top: 4px solid #c7c8c9;}
 .footer-contact-form>div{width:50%;}
 .footer-contact-form>div:last-child{padding-top:2rem;padding-left:2rem;}
 .footer-contact-form h3{
@@ -56,10 +76,9 @@ footer{
         font-size: 1.5rem;
         font-weight: 400;
         line-height: 1.6em;
+        text-align: center;
 }
-
-
-.footer-contact-form input {
+.footer-contact-form input, .footer-contact-form textarea {
     width: 100%;
     max-width: 100%;
     border: 0;
@@ -67,24 +86,20 @@ footer{
     background-color: transparent;
     color: #c7c8c9;
     vertical-align: middle;
-    flex-grow: 1;
     margin: 0.5rem 0rem;
     padding: 0.7rem;
 }
-.footer-contact-form input::placeholder {
-    color:#c7c8c9;
-}
-.submit-btn{text-align:center;padding:2rem 0rem;}
+.footer-contact-form input::placeholder, .footer-contact-form textarea::placeholder {  color:#c7c8c9;}
+.submit-btn{text-align:center;padding: 1rem 0rem;}
 .white-btn {
     color: #fff;
     background-color: transparent;
     border: 1.5px solid #fff;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 3.5rem;
     font-size: 18px;
     letter-spacing: 2px;
     cursor: pointer;
-    text-transform: uppercase;
-
+    text-transform: uppercase;     border-radius: 0px;
 }
 .white-btn:hover{
     color: #303030;
@@ -108,7 +123,7 @@ footer{
         padding:2rem 0rem;
     
 }
-.footer-new{margin-top:5rem;}
+
 .footer-last i{color:#fff;padding-left:20px;font-size:30px;}
 .client-hd h2{
         color: #F0F0F0;
@@ -172,7 +187,7 @@ footer{
         letter-spacing: 0px;
         word-spacing: 0em;
 }
-@media only screen and (max-width: 768px){	
+@media only screen and (max-width: 767px){	
 	:root {
     --main-pad: 0rem 1rem !important;
 }
@@ -181,33 +196,27 @@ footer{
 }
 .footer-contact-form h1 {
     font-size: 40px;padding:1.5rem 0rem;}
-    .footer-contact-form h4 {
-        font-size: 16px;}
-    .footer-last{padding-bottom:3rem;}
+    .footer-contact-form h4 { font-size: 16px;     text-align: left;}
     .footer-contact-form,.footer-last{flex-wrap:wrap;}
-    .footer-contact-form>div,.footer-last>div{width:100%;}
-    .footer-contact-form>div:last-child {
-        padding-top: 2rem;
-        padding-left: 0rem;
-    }
-    .footer-contact-form {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    }
-    .footer-last>div:last-child {
-        text-align: left;
-    }
+    .footer-contact-form>div,.footer-last>div, .footer-new > div:first-child, .footer-new > div:last-child, .footer-contact-form form span{width:100%;}
+    .footer-contact-form>div:last-child { padding-top: 2rem;  padding-left: 0rem;}
+    .footer-contact-form {   padding-top: 2rem;    padding-bottom: 2rem;}
+    .footer-last>div:last-child {   text-align: left; }
     .white-btn{font-size:14px;}
-    .client-pt p {
-        font-size: 14px;}
+    .client-pt p {  font-size: 14px;}
     .client-hd h2{font-size:28px;}
-    .client-hd p {
-        font-size: 18px;}
+    .client-hd p { font-size: 18px;}
     .client-pt{width:100%;padding: 1rem 0rem ;}    
-    .client-img h4 {
-        font-size: 18px;}
+    .client-img h4 { font-size: 18px;}
     .client-list{padding:02rem 0rem 2rem;}   
     .footer-client{padding:0rem;} 
+    
+    footer h2 { font-size: 30px;}
+    .footer-new { padding: 4rem 0rem 0rem}  
+    .footer-contact-form form {  padding: 1rem 0rem;}
+    .white-btn { padding: 0.5rem 1.5rem;  font-size: 16px;}
+
+
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px){	
 	:root {
@@ -224,44 +233,43 @@ footer{
         font-size: 18px;}
     .client-list{padding:04rem 0rem 2rem;}   
     .footer-client{padding:2rem 0rem 5rem;} 
+
+    .footer-new > div:first-child {  width: 35%;}
+    footer h2 { font-size: 35px;}
+    .footer-new { padding: 4rem 0rem;}  
+    .footer-contact-form form {  padding: 1rem 0rem;}
+    .white-btn { padding: 0.5rem 1.5rem;  font-size: 16px;}
+
+
 }
 @media only screen and (min-width: 1024px) and (max-width: 1200px){
-	:root {
-    --main-pad: 0rem 6rem !important;
-}
-.footer-contact-form h3 {
-    font-size: 30px;
-}
-.footer-contact-form h1 {
-    font-size: 60px;}
-    .footer-contact-form h4 {
-        font-size: 20px;}
+	:root { --main-pad: 0rem 6rem !important;}
+    .footer-contact-form h3 {  font-size: 30px;}
+    .footer-contact-form h1 { font-size: 60px;}
+    .footer-contact-form h4 { font-size: 20px;}
     .client-list{padding:04rem 0rem 2rem;}   
     .footer-client{padding:2rem 0rem 5rem;}  
-    .client-img h4 {
-        font-size: 18px;}
+    .client-img h4 { font-size: 18px;}
+    .footer-new > div:first-child {  width: 35%;}
+    footer h2 { font-size: 42px;}
+    .footer-new { padding: 4rem 0rem;}   
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1366px){
-	:root {
-    --main-pad: 0rem 6rem !important;
-}
-.footer-contact-form h3 {
-    font-size: 30px;
-}
-.footer-contact-form h1 {
-    font-size: 60px;}
-    .footer-contact-form h4 {
-        font-size: 20px;}
+	:root { --main-pad: 0rem 6rem !important;}
+    .footer-contact-form h3 {  font-size: 30px;}
+    .footer-contact-form h1 { font-size: 60px;}
+    .footer-contact-form h4 { font-size: 20px;}
     .client-list{padding:04rem 05rem 2rem;}   
     .footer-client{padding:2rem 0rem 5rem;}     
-    .client-img h4 {
-        font-size: 20px;}
-    }
-@media only screen and (min-width: 1366px) and (max-width: 1600px){	
-	:root {
-    --main-pad: 0rem 8rem;
-}
-.client-list{padding:4rem 05rem 2rem;}
+    .client-img h4 {  font-size: 20px;} 
+    footer h2 { font-size: 50px;}
+    .footer-new { padding: 4rem 0rem;}
 
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1600px){	
+	:root { --main-pad: 0rem 8rem;  }
+    .client-list{padding:4rem 05rem 2rem;}
+    footer h2 { font-size: 55px;}
 }
