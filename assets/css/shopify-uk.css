@@ -1,0 +1,1188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.nav-links li a {
+    margin: 0 0 0 0.7vw;
+}
+span {
+    color: #339980;
+}
+
+.cs-container {
+    padding: 0rem 10rem;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.cs-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* banner section */
+
+.banner-section {
+    background-color: #F5F5F5;
+    background-image: url("https://cdn.masterinfotech.com/assets/images//shopify_uk/services9.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-overlay {
+    background-color: #F5F5F5;
+    opacity: 0.95;
+}
+
+.banner-section-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0px 120px 0px;
+}
+
+.banner-section-header h1 {
+    color: #323232;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: -1.3px;
+    word-spacing: 3px;
+    text-align: center;
+    max-width: 750px;
+    margin-bottom: 2rem;
+}
+
+.banner-section-header span {
+    font-weight: 600;
+}
+
+.banner-section-info p {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #8A8A8A;
+    line-height: 1.6em;
+    text-align: center;
+    max-width: 370px;
+    margin-bottom: 1rem;
+}
+
+.user-details label {
+    font-family: 'Overpass';
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+    padding-bottom: 6px;
+    color: #7a7a7a;
+    line-height: 1.6em;
+    cursor: pointer;
+}
+
+.user-details .user-details-info {
+    display: flex;
+}
+
+.user-details .details {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+.user-details button {
+    margin: 1rem auto 4rem auto;
+    background-color: #339980;
+    color: white;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid #339980;
+    border-width: 2px 2px 2px 2px;
+    padding: 8px 14px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.user-details button:hover{
+    background-color:transparent;
+    color:#339980;
+}
+
+.details input {
+    background-color: rgba(29, 29, 35, 0.07);
+    outline:none;
+    border: none;
+    border-radius: 2px 2px 2px 2px;
+    color: #000000;
+    font-family: 'Overpass';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6em;
+    padding: 6px 16px;
+    min-height: 47px;
+    width:240px;
+}
+
+.details input:focus{
+    border: 1px solid #69727d;
+}
+
+.banner-video {
+    width: 47%;
+}
+
+.banner-video video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* collaborations section */
+
+.collaborations-section {
+    background-color: #323232;
+    padding: 120px 0px;
+    width: 100%;
+}
+
+.collaborations-header {
+    width: 100%;
+}
+
+.collaborations-header p {
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-weight: 300;
+    color: #bfbfbf;
+    text-align: center;
+}
+
+.collab-partners-images {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.partner {
+    width: 8%;
+    margin-right: 8rem;
+    transition: all ease-in-out 0.4s;
+}
+
+.partner:hover {
+    transform: scale(1.1);
+}
+
+/* who we are */
+
+.who-we-are {
+    background-color: #2C2C2C;
+}
+
+.who-we-are-container {
+    display: flex;
+    width: 100%;
+}
+
+.who-we-are-left {
+    width: 50%;
+    display: flex;
+    padding: 100px 0px 100px 0px;
+    align-items: center;
+}
+
+.who-we-are-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0px 100px 0px;
+}
+
+.who-we-are-left-header h1,.who-we-are-right-header h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #fff;
+    font-size: 45px;
+    line-height: 1.3em;
+}
+
+.who-we-are-right-header {
+    margin-bottom: 2rem;
+}
+
+.who-we-are-info p {
+    font-family: 'Poppins';
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+/* design dev launch */
+
+.design-dev-launch {
+    background-color: #2C2C2C;
+    padding-bottom: 120px;
+}
+
+.design-dev-container {
+    display: flex;
+    width: 100%;
+}
+
+.design-dev-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0px 100px 0px;
+}
+
+.design-dev-right {
+    width: 50%;
+    padding: 50px 0px 100px 0px;
+    max-width: 775px;
+}
+
+.design-dev-header h1 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #fff;
+    font-size: 36px;
+    line-height: 60px;
+}
+
+.design-dev-info p {
+    font-family: 'Poppins';
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    max-width: 556px;
+}
+
+/* like our work */
+
+.like-our-work {
+    background-image: url("https://cdn.masterinfotech.com/assets/images//shopify_uk/like-our-work.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background-overlay-work {
+    background-color: #323232;
+    opacity: 0.98;
+    padding: 60px 0px;
+}
+
+.like-our-work-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-details form {
+    display: flex;
+}
+
+.like-our-work-title p {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.1666em;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+.like-our-work-info p {
+    color: #FFFFFF8A;
+    font-family: "Roboto", Sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.617em;
+    letter-spacing: 0.15px;
+    max-width: 365px;
+    margin-left: 3rem;
+}
+
+.email-details input {
+    background-color: #FFFFFF26;
+    border-radius: 24px;
+    color: #A1A1A0;
+    padding: 0.4rem 6rem 0.4rem 1rem;
+    border: none;
+    outline: none;
+    font-family: 'Overpass';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin-left: 2rem;
+}
+
+.email-details button {
+    padding: 15px 40px;
+    border-radius: 24px;
+    background-color: #fff;
+    color: #323232;
+    border-color: #C7C7C7;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    font-family: 'Syne';
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2em;
+    letter-spacing: 3px;
+    margin-left: 2rem;
+}
+
+/* below like our work */
+
+.below-like-our-work {
+    width: 100%;
+    background-color: #2C2C2C;
+    padding: 50px 0px;
+}
+
+/* maintenance */
+
+.maintenance {
+    padding-top: 100px;
+}
+
+.maintenance-container {
+    width: 100%;
+}
+
+.maintenance-header h1 {
+    color: #000000;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 3.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 3.8px;
+    text-align: center;
+}
+
+.maintenance-info p {
+    text-align: center;
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+    margin-bottom: 7rem;
+}
+
+.maintenance-cards {
+    display: flex;
+    width: 100%;
+}
+
+.monthly {
+    text-align: center;
+    width: 33.33%;
+    padding: 100px 50px;
+    box-shadow: 16px 16px 80px 0px rgba(0, 0, 0, 0.1);
+    transition:all ease-in-out -.3s;
+}
+
+.mcard:hover {
+    transform: scale(0.99);
+    box-shadow: rgba(0, 0, 0, 0.15) 10px 10px 60px 0px;
+}
+
+.month-header h1 {
+    color: #000000;
+    font-family: "Josefin Sans", Sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    font-size: 24px;
+}
+
+.month-info p {
+    color: #000000;
+    font-family: "Roboto Mono", Sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    letter-spacing: 1.8px;
+}
+
+.amount p:nth-child(1) {
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    color: #000000;
+    margin-top: 3rem;
+}
+
+.amount p:nth-child(2) {
+    color: #000000;
+    font-family: "Roboto Mono", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1em;
+    margin-top: -0.3rem;
+}
+
+sup {
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #000000;
+}
+
+.plan-details {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.dot-1 {
+    height: 0.8rem;
+    width: 0.8rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: -1.7rem;
+    margin-right: 1rem;
+}
+
+.plan-details .plan-1 {
+    display: flex;
+    align-items: center;
+}
+
+.features {
+    margin-bottom: 1rem;
+}
+
+.features p {
+    padding-bottom: 1rem;
+    font-family: "Roboto Mono", Sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.subscribe-btn button {
+    color: #ffffff;
+    font-family: "Roboto Mono", Sans-serif;
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    background-color: #323232;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #323232;
+    border-radius: 60px 60px 60px 60px;
+    text-decoration: underline;
+    padding: 12px 24px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.subscribe-btn button:hover {
+    background: white;
+    color: #323232;
+}
+
+.half-year {
+    background-color: #282828;
+    color: white;
+    transform: scaleY(1.1);
+}
+
+.half-year .features p {
+    color: white;
+}
+
+.half-year .dot-1 {
+    border: 2px solid white;
+}
+
+.half-year .subscribe-btn button {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+
+.half-year .subscribe-btn button:hover {
+    background-color: #323232;
+    color: white;
+}
+
+.half-year sup,.half-year .amount p:nth-child(1),.half-year .month-header h1,.half-year .month-info p,.half-year .amount p:nth-child(2) {
+    color: white;
+}
+
+/* stil not sure */
+
+.still-not-sure {
+    padding: 120px 0px 120px 0px;
+    background-color: #2C2C2C;
+}
+
+.still-not-sure-header {
+    width: 100%;
+}
+
+.still-not-sure-header h1 {
+    color: #FFFFFF;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 3.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 3.8px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.still-not-sure-info p {
+    color: #8A8A8A;
+    font-family: 'Overpass';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6em;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.more-work-videos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-items {
+    width: 48%;
+    margin-right: 1.7rem;
+    margin-bottom: 1.5rem;
+}
+
+/* summary */
+
+.summary {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #ECFCF4 0%, #84ADA3 100%);
+    padding: 120px 0px;
+}
+
+.summary-container {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.summary-left {
+    width: 55%;
+    margin-right: 1.5rem;
+}
+
+.summary-right {
+    width: 35.5%;
+}
+
+.summary-left-info p {
+    color: #323232;
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.summary-left-header h1 {
+    color: #323232;
+    font-family: "Rubik", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.summary-points {
+    margin-top: 3rem;
+}
+
+.point-1 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 0px 0px 10px 0px;
+    padding: 40px 70px 40px 70px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.4rem;
+}
+
+.point-1:nth-child(4) {
+    margin-bottom: 0rem;
+}
+
+.point-1 p {
+    margin-bottom: 2px;
+    color: rgba(50, 70, 73, 0.84);
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7em;
+    margin-left: 3rem;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:1600px) {
+
+    .video-items {
+        margin-right: 1rem;
+        width: 49%;
+    }
+
+    .video-items:nth-child(2),.video-items:nth-child(4) {
+        margin-right: 0rem;
+    }
+
+    .cs-container {
+        padding: 0rem 8rem;
+    }
+
+    .banner-video {
+        width: 57%;
+    }
+
+    .summary-right{
+        width:42%;
+    }
+}
+
+@media screen and (max-width:1440px) {
+
+    .maintenance {
+        padding-top: 80px;
+    }
+
+    .design-dev-launch {
+        padding-bottom: 60px;
+    }
+
+    .who-we-are-left,.who-we-are-right,.design-dev-left,.still-not-sure,.summary {
+        padding: 80px 0px 80px 0px
+    }
+
+    .design-dev-right {
+        padding: 30px 0px 80px 0px;
+    }
+
+    .banner-section-container {
+        padding: 150px 0px 80px 0px;
+    }
+
+    .collaborations-section {
+        padding: 80px 0px;
+    }
+
+    .collab-partners-images {
+        margin-top: 3rem;
+    }
+
+    .banner-video {
+        width: 64%;
+    }
+
+    .partner {
+        width: 10%;
+        margin-right: 5rem;
+    }
+
+    .summary-right{
+        width:52%;
+    }
+}
+
+@media screen and (max-width:1366px) {
+
+    .video-items {
+        width: 49%;
+    }
+
+    .point-1 {
+        padding: 33px 70px 33px 70px;
+    }
+
+    .banner-video {
+        width: 69%;
+    }
+
+    .nav-links li a {
+        margin: 0 0 0 0.4vw;
+    }
+}
+
+@media screen and (max-width:1280px) {
+
+    .maintenance-header h1,.still-not-sure-header h1 {
+        font-size: 3rem;
+    }
+
+    .cs-container {
+        padding: 0rem 6rem;
+    }
+
+    .point-1 {
+        padding: 31px 70px 31px 70px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    .banner-section-container {
+        padding: 120px 0px 60px 0px;
+    }
+
+    .collaborations-section,.summary,.who-we-are-left,.who-we-are-right,.design-dev-left,.still-not-sure {
+        padding: 60px 0px;
+    }
+
+    .design-dev-right {
+        padding: 0px 0px 60px 0px;
+    }
+
+    .design-dev-launch {
+        padding-bottom: 45px;
+    }
+
+    .maintenance {
+        padding-top: 60px;
+    }
+
+    .summary-left-header h1 {
+        font-size: 48px;
+    }
+
+    .below-like-our-work {
+        padding: 40px 0px;
+    }
+
+    .point-1 {
+        padding: 26px 70px 26px 70px;
+    }
+
+    .banner-video {
+        width: 76%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .design-dev-left {
+        padding: 45px 0px;
+    }
+
+    .month-header h1 {
+        font-size: 20px;
+    }
+
+    .amount p:nth-child(1) {
+        margin-top: 1rem;
+        font-size: 50px;
+    }
+
+    .features {
+        margin-bottom: 0.5rem;
+    }
+
+    .amount p:nth-child(2) {
+        margin-top: -1.3rem;
+    }
+
+    .monthly {
+        padding: 60px 30px;
+    }
+
+    .point-1 {
+        padding: 18px 70px 18px 70px;
+    }
+
+    .point-1 img {
+        width: 15%;
+    }
+
+    .maintenance-header h1,.still-not-sure-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .design-dev-info p {
+        max-width: 360px;
+    }
+
+    .design-dev-right {
+        padding: 0px;
+    }
+
+    .maintenance-info p {
+        margin-bottom: 5rem;
+    }
+
+    .banner-video {
+        width: 91%;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    .cs-container {
+        padding: 0rem 2rem;
+    }
+
+    .maintenance-info p {
+        text-align: center;
+        margin-bottom: 4rem;
+        padding: 0rem 7rem;
+    }
+
+    .banner-section-header h1 {
+        font-size: 44px;
+        line-height: 60px;
+        margin-bottom: 1rem;
+    }
+
+    .user-details button {
+        margin: 1rem auto 2rem auto;
+    }
+
+    .point-1 {
+        padding: 25px 70px 25px 70px;
+    }
+
+    .details input{
+        width:220px;
+    }
+
+    .banner-video {
+        width: 76%;
+    }
+}
+
+@media screen and (max-width:820px) {
+
+    .banner-section-container {
+        padding: 100px 0px 45px 0px;
+    }
+
+    .collaborations-section,.summary,.who-we-are-left,.who-we-are-right,.design-dev-left,.still-not-sure {
+        padding: 45px 0px;
+    }
+
+    .collab-partners-images {
+        margin-top: 1rem;
+    }
+
+    .below-like-our-work {
+        padding: 30px 0px;
+    }
+
+    .maintenance {
+        padding-top: 45px;
+    }
+
+    .maintenance-header h1,.still-not-sure-header h1 {
+        font-size: 2rem;
+    }
+
+    .maintenance-info p {
+        margin-bottom: 3rem;
+    }
+
+    .design-dev-header h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .design-dev-info p,.who-we-are-info p {
+        line-height: 1.4em;
+    }
+
+    .who-we-are-left-header h1,.who-we-are-right-header h1 {
+        font-size: 32px;
+    }
+
+    .who-we-are-right-header {
+        margin-bottom: 1rem;
+    }
+
+    .background-overlay-work {
+        padding: 40px 0px;
+    }
+
+    .email-details input {
+        padding: 0.4rem 3rem 0.4rem 1rem;
+        line-height: 1.4em;
+        margin-left: 1rem;
+    }
+
+    .like-our-work-title p,.like-our-work-info p {
+
+        margin-left: 2rem;
+    }
+
+    .like-our-work-title p {
+
+        margin-bottom: 0.5rem;
+    }
+
+    .email-details button {
+        padding: 15px 25px;
+        margin-left: 1rem;
+    }
+
+    .monthly {
+        padding: 35px 20px;
+    }
+
+    .amount p:nth-child(1) {
+        margin-top: 0rem;
+    }
+
+    .plan-details {
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .point-1 p {
+        margin-left: 1rem;
+    }
+
+    .point-1 {
+        padding: 16px 22px 16px 22px;
+    }
+
+    .summary-left-header h1 {
+        font-size: 40px;
+    }
+
+    .video-items {
+        width: 48%;
+    }
+
+    .banner-video {
+        width: 90%;
+    }
+
+    .point-1 img {
+        width: 13%;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .banner-section-header h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .point-1 p {
+        font-size: 14px;
+    }
+
+    .cs-container {
+        padding: 0rem 2rem;
+    }
+
+    .point-1 {
+        padding: 14px 22px 14px 22px;
+    }
+
+    .details input{
+        width:180px;
+    }
+
+    .banner-video {
+        width: 83%;
+    }
+}
+
+@media screen and (max-width:575px) {
+
+    .user-details .user-details-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .who-we-are-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .who-we-are-left,.who-we-are-right {
+        width: 100%;
+        padding: 15px 0px;
+    }
+
+    .more-work-videos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video-items {
+        width: 100%;
+        margin-right:0rem;
+    }
+
+    .summary-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .summary-left,.summary-right {
+        width: 100%;
+    }
+
+    .collaborations-section,.summary,.who-we-are-left,.who-we-are-right,.design-dev-left,.still-not-sure {
+        padding: 15px 0px;
+    }
+
+    .maintenance-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .monthly {
+        width: 100%;
+        padding: 60px 30px;
+    }
+
+    .amount p:nth-child(1) {
+        margin-top: 2rem;
+    }
+
+    .plan-details {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .still-not-sure-header h1 {
+        margin-bottom: 0.5rem;
+        letter-spacing: 2.8px;
+    }
+
+    .maintenance-info p {
+        padding: 0rem;
+    }
+
+    .maintenance-header h1,.still-not-sure-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .like-our-work-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .like-our-work-title p {
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .like-our-work-info p,.email-details button {
+        margin-left: 0rem;
+    }
+
+    .email-details form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .email-details form input {
+        margin: 2rem 0rem;
+        padding: 0.4rem 6rem 0.4rem 1rem;
+        line-height: 1.6em;
+    }
+
+    .design-dev-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .design-dev-left,.design-dev-right {
+        width: 100%;
+    }
+
+    .design-dev-info p {
+        max-width: 100%;
+    }
+
+    .banner-video {
+        width: 100%
+    }
+
+    .point-1:nth-child(4) {
+        margin-bottom: 1.5rem;
+    }
+
+    .details input{
+        margin-bottom:1rem;
+    }
+
+    .partner {
+        width: 22%;
+        margin-right: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .cs-container{
+        padding:0rem 1rem;
+    }
+}
