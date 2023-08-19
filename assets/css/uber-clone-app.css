@@ -246,7 +246,7 @@ input[type="checkbox"] {
         font-size:16px;}
     p{
        font-size: 14px;  }
-       .title p {
+    .title p {
         font-size: 16px;
     }
     main {
@@ -383,7 +383,7 @@ input[type="checkbox"] {
     --main-pad: 0rem 6rem;
 	}
     h1{
-        font-size:60px;
+       font-size:60px;
     }
     h2{
        font-size: 32px;
@@ -431,10 +431,10 @@ input[type="checkbox"] {
  
  @media only screen and (min-width: 1201px) and (max-width: 1366px){
 	:root {
-    --main-pad: 0rem 8rem;
+    --main-pad: 0rem 6rem;
 	}
     h1{
-        font-size:70px;
+       font-size:70px;
     }
     h2{
        font-size: 36px;
@@ -446,11 +446,11 @@ input[type="checkbox"] {
        font-size:18px;
     }
     p{
-      font-size: 14px;
+       font-size: 14px;
     }
     .title p{font-size:18px;}
 
-    .title h2 {	font-size: 36px;	line-height: 1.3;}
+    .title h2 {	font-size: 36px;	line-height:1.3;}
     #del-banner h1 {
         font-size: 40px;}
  
@@ -473,7 +473,7 @@ input[type="checkbox"] {
  }
  @media only screen and (min-width: 1367px) and (max-width: 1600px){
 	:root {
-    --main-pad: 0rem 10rem;
+    --main-pad: 0rem 8rem;
 	}
     h1{font-size:80px;}
     h2{font-size: 38px;}

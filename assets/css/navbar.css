@@ -165,6 +165,33 @@ li > a:only-child:after {/* content: ''; */}
 }
 
 
+
 @media screen and (max-width:768px){
-  .join2-button{font-size:14px;letter-spacing:1px;}
-}
+    .join2-button{font-size:14px;letter-spacing:1px;}
+    :root {
+      --main-pad: 0rem 1rem;
+  }
+  }
+  @media screen and (min-width:768px) and (max-width:1024px){
+     
+      :root {
+        --main-pad: 0rem 2rem;
+    }
+    }
+    @media screen and (min-width:1024px) and (max-width:1200px){
+      :root {
+        --main-pad: 0rem 6rem;
+    }
+    }
+    @media screen and (min-width:1200px) and (max-width:1366px){
+      
+      :root {
+        --main-pad: 0rem 6rem;
+    }
+    }
+    @media screen and (min-width:1366px) and (max-width:1600px){
+      
+      :root {
+        --main-pad: 0rem 8rem;
+    }
+    }
