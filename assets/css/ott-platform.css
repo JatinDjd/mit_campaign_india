@@ -20,7 +20,7 @@ span {
 
     width: 100%;
     margin: 0px auto;
-    padding: 0px 60px;
+    padding: 0rem 10rem;
 }
 
 .cs-row {
@@ -37,16 +37,12 @@ img {
 /* banner section */
 
 .banner-section {
-
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://cdn.masterinfotech.com/assets/images//ott_app_development/banner-bg.webp");
     background-repeat: no-repeat;
-    background-size: cover;
-    /* height:100vh; */
-    
+    background-size: cover; 
 }
 
 .banner-section-container {
-
     display: flex;
     width: 100%;
     padding: 150px 0px;
@@ -56,17 +52,14 @@ img {
 }
 
 .banner-section-left {
-
     width: 50%;
 }
 
 .banner-section-right {
-
     width: 50%;
 }
 
 .banner-section-left-header h1 {
-
     font-family: 'Roboto';
     font-weight: 600;
     font-size: 56px;
@@ -75,12 +68,10 @@ img {
 }
 
 .banner-section-left-header {
-
     margin-bottom: 2rem;
 }
 
 .banner-section-info p {
-
     font-family: 'Roboto';
     font-size: 18px;
     font-weight: 400;
@@ -89,27 +80,22 @@ img {
 }
 
 .banner-section-info span {
-
     margin-right: 0.3rem;
 }
 
 .fa-check {
-
     color: white;
 }
 
 .banner-section-details a {
-
     text-decoration: none;
 }
 
 .banner-section-info p:nth-child(3) {
-
     margin-bottom: 2.5rem;
 }
 
 .btn {
-
     border: 1px solid white;
     color: black;
     background-color: white;
@@ -123,7 +109,6 @@ img {
 }
 
 .btn:hover{
-
     background-color:transparent;
     color:white;
 }
@@ -131,17 +116,14 @@ img {
 /* video streaming section */
 
 .video-streaming{
-
     padding:80px 0px;
 }
 
 .video-streaming-container {
-
     width: 100%;
 }
 
 .video-streaming-header h1 {
-
     text-align: center;
     font-family: 'Roboto';
     font-weight: 600;
@@ -152,7 +134,6 @@ img {
 }
 
 .video-streaming-info p {
-
     font-family: 'Roboto';
     font-size: 18px;
     font-weight: 400;
@@ -164,7 +145,6 @@ img {
 }
 
 .video-streaming-box {
-
     background: url("https://cdn.masterinfotech.com/assets//ott_app_development/img-2.webp");
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,15 +155,13 @@ img {
 }
 
 .video-streaming-box-items {
-
-    padding: 4rem 5rem;
+    padding: 4rem 4rem;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
 
 .item-1 {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -192,44 +170,37 @@ img {
 }
 
 .video-streaming-box p {
-
     color: white;
     font-size: 18px;
     font-family: 'Roboto';
     font-weight: 600;
+    text-align:center;
 }
 
 /* instantly launch */
 
 .instantly-launch-section{
-
     padding: 40px 0px;
 }
 
 .instantly-launch {
-
     width: 100%;
     display: flex;
-    
 }
 
 .instantly-launch-left {
-
     width: 50%;
 }
 
 .instantly-launch-right {
-
     width: 50%;
 }
 
 .instantly-launch-header {
-
     margin-top: 3.5rem;
 }
 
 .instantly-launch-header h1 {
-
     font-family: 'Roboto';
     font-weight: 600;
     font-size: 48px;
@@ -238,7 +209,6 @@ img {
 }
 
 .instantly-launch-info p {
-
     color: #7A7A7A;
     font-family: 'Roboto';
     font-size: 18px;
@@ -249,12 +219,10 @@ img {
 }
 
 .instantly-launch-left a {
-
     text-decoration: none;
 }
 
 .btn-1 {
-
     background-color: #303030;
     border: 1px solid black;
     color: white;
@@ -268,7 +236,6 @@ img {
 }
 
 .btn-1:hover {
-
     background: white;
     color: black;
 }
@@ -276,30 +243,25 @@ img {
 /* swift dependable */
 
 .swift-dependable {
-
     width: 100%;
     display: flex;
     padding: 0px 0px 60px 0px;
 }
 
 .swift-dependable-left {
-
     width: 45%;
 }
 
 .swift-dependable-right {
-
     width: 55%;
     padding-left: 3rem;
 }
 
 .swift-dependable-header {
-
     margin-top: 4rem;
 }
 
 .swift-dependable-header h1 {
-
     font-family: 'Roboto';
     font-weight: 600;
     font-size: 48px;
@@ -308,7 +270,6 @@ img {
 }
 
 .swift-dependable-info p {
-
     color: #7A7A7A;
     font-family: 'Roboto';
     font-size: 18px;
@@ -319,27 +280,22 @@ img {
 }
 
 .swift-dependable-right a {
-
     text-decoration: none;
 }
 
 /* empowering technologies */
 
 .empowering-technologies-section {
-
     background-color: transparent;
     background: linear-gradient(90deg, rgba(78, 68, 64, 1) 0%, rgba(134, 86, 65, 1) 50%, rgba(107, 77, 65, 1) 100%);
     padding: 80px 0px;
 }
 
-
 .empowering-technologies {
-
     width: 100%;
 }
 
 .empowering-technologies-header h1 {
-
     font-family: 'Roboto';
     font-weight: 600;
     font-size: 48px;
@@ -351,7 +307,6 @@ img {
 
 
 .empowering-technologies-details {
-
     display: flex;
     width: 100%;
     align-items: center;
@@ -359,18 +314,15 @@ img {
 
 .empowering-technologies-left,
 .empowering-technologies-right {
-
     width: 20%;
 }
 
 .empowering-technologies-center {
-
     padding: 2rem 3.5rem 0rem 3.5rem;
 
 }
 
 .tech-heading p {
-
     font-family: 'Roboto';
     font-weight: 600;
     font-size: 18px;
@@ -379,7 +331,6 @@ img {
 }
 
 .tech-info p {
-
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
@@ -388,25 +339,21 @@ img {
 }
 
 .tech-1 {
-
     margin-bottom: 5rem;
 }
 
 /* unprecedented video section */
 
 .unprecedented-video-section {
-
     padding: 80px 0px;
     width: 100%;
 }
 
 .unprecedented-video {
-
     text-align: center;
 }
 
 .unprecedented-video-header h1 {
-
     font-family: 'Roboto';
     font-weight: 600;
     font-size: 48px;
@@ -417,7 +364,6 @@ img {
 }
 
 .unprecedented-video-info p {
-
     color: #7A7A7A;
     font-family: 'Roboto';
     font-size: 18px;
@@ -437,18 +383,16 @@ img {
 }
 
 .unprecedented-1 {
-    width: 28%;
+    width: 32%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 0rem;
     min-height: 100%;
-    padding: 0px 15px;
     margin-top: 4rem;
 }
 
 .unprecedented-header p {
-
     font-family: 'Roboto';
     font-weight: 600;
     color: #303030;
@@ -456,7 +400,6 @@ img {
 }
 
 .unprecedented-info p {
-
     text-align: center;
     font-family: 'Roboto';
     font-weight: 400;
@@ -467,26 +410,22 @@ img {
 }
 
 .unprecedented-video a {
-
     text-decoration: none;
 }
 
 /* enterprise level section */
 
 .enterprise-level-section {
-
     background: url("https://cdn.masterinfotech.com/assets//ott_app_development/img-1.webp");
     padding: 100px 0px;
 }
 
 .enterprise-level {
-
     width: 100%;
     text-align: center;
 }
 
 .enterprise-level-header h1 {
-
     color: #FFFFFF;
     font-family: "Roboto", Sans-serif;
     font-size: 48px;
@@ -496,7 +435,6 @@ img {
 }
 
 .enterprise-level-info p {
-
     color: #fff;
     font-family: 'Roboto';
     font-size: 18px;
@@ -507,12 +445,10 @@ img {
 }
 
 .enterprise-level a {
-
     text-decoration: none;
 }
 
 .btn-2 {
-
     color: black;
     background-color: white;
     padding: 12px 24px;
@@ -525,7 +461,6 @@ img {
 }
 
 .btn-2:hover {
-
     color: white;
     background-color: transparent;
 }
@@ -540,13 +475,11 @@ img {
 }
 
 .recognitions{
-
     background-color:#ECECEB;
     padding:60px 0px;
 }
 
 .recognitions .title h2{
-
     color: #303030;
     font-family: "Roboto", Sans-serif;
     font-size: 46px;
@@ -670,7 +603,7 @@ img {
     box-shadow: 4px 7px 51px rgba(0, 0, 0, 0.07);
     padding: 1rem;
     display: flex;
-    column-gap: 5rem;
+    column-gap: 2rem;
     transition: 0.2s ease-in-out;
     cursor:pointer;
 }
@@ -731,7 +664,6 @@ img {
 }
 
 .cont-new-plat h2{
-
     color: #FFFFFF;
     font-family: "Roboto", Sans-serif;
     font-size: 38px;
@@ -742,7 +674,6 @@ img {
 }
 
 .cont-new-plat p{
-
     color: #FFFFFF;
     font-family: "Roboto", Sans-serif;
     font-size: 24px;
@@ -751,12 +682,10 @@ img {
 }
 
 .plat-cont-new .cont-new-plat{
-
     padding-left:2rem !important;
 }
 
 .list-det li{
-
     font-family:'Roboto';
     font-weight:400;
     font-size:20px !important;
@@ -766,8 +695,16 @@ img {
 }
 
 .fa-star{
-
     font-size:12px;
+}
+
+.cont-new-plat>div:nth-child(1) {
+    padding-left: 130px;
+    margin: 2.3rem 0rem;
+}
+
+.plat-list{
+    padding-right:160px;
 }
 
 /* MEDIA QUERIES */
@@ -775,8 +712,11 @@ img {
 @media screen and (max-width:1600px){
 
     .item-1 {
-       
         margin-right: 1rem;
+    }
+
+    .plat-list {
+        padding-right: 170px;
     }
 
     .swift-dependable-header {
@@ -784,12 +724,10 @@ img {
     }
 
     .list-img>div img{
-
         width:80%;
     }
 
     .plat-list>div{
-
         padding:0.5rem;
     }
 
@@ -798,7 +736,6 @@ img {
     }
 
     .banner-section-container {
-        
         padding: 120px 0px;
     }
 
@@ -807,7 +744,6 @@ img {
     }
 
     .list-det li{
-
         margin-top: 0.3rem;
         margin-bottom: 0.3rem;
     }
@@ -816,9 +752,41 @@ img {
 
         margin-top:0rem;
     }
+
+    .instantly-launch-info p {
+        margin-bottom: 2.5rem;
+    }
+
+    .swift-dependable-info p {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .unprecedented-1 {
+        width: 32%;
+    }
+
+    .cont-new-plat>div:nth-child(1) {
+        padding-left: 130px;
+        margin: 1.4rem 0rem;
+    }
 }
 
 @media screen and (max-width:1440px){
+
+    nav{
+
+        padding:0rem 8rem;
+    }
+
+    .cs-container{
+        padding:0rem 8rem;
+    }
+
+    .cont-new-plat>div:nth-child(1) {
+        padding-left: 100px;
+        margin: 1rem 0rem;
+    }
 
     .plat-list ul li {
         
@@ -835,8 +803,7 @@ img {
     }
 
     .recognitions .title h2,.enterprise-level-header h1,.unprecedented-video-header h1,.empowering-technologies-header h1,.swift-dependable-header h1,.instantly-launch-header h1,
-    .video-streaming-header h1 {
-       
+    .video-streaming-header h1.banner-section-header h1 {
         font-size: 40px;
     }
 
@@ -845,17 +812,14 @@ img {
     }
 
     .unprecedented-video-header h1 {
-       
         padding:0rem;
     }
 
     .unprecedented-video-info p {
-        
         padding: 0rem 9rem;
     }
 
     .unprecedented-columns{
-
         padding:0rem;
     }
 
@@ -893,9 +857,9 @@ img {
     }
 
     .item-1 {
-        
-        width: 32%;
+        width: 50%;
         margin-bottom:3rem;
+        margin-right:0rem;
     }
 
     .instantly-launch-section {
@@ -912,7 +876,6 @@ img {
     }
 
     .instantly-launch-info p {
-      
         margin-top: 1rem;
         margin-bottom: 2rem;
     }
@@ -922,45 +885,74 @@ img {
     }
 
     .banner-section-container {
-        
         padding: 100px 0px
     }
 
     .list-det ul li{
-
         margin:0.5rem 0rem;
     }
 
     .cont-new-plat{
-
         margin-bottom:1rem !important;
     }
 
     .banner-section-container {
-
         margin-top:2rem;
+    }
+
+    .unprecedented-1{
+        width:32%;
+        padding:0px;
+    }
+
+    .plat-list {
+        padding-right: 136px;
+    }
+
+    .swift-dependable-right{
+        padding-left:0rem;
     }
 }
 
 @media screen and (max-width:1366px){
-
-    .item-1 {
-        width: 30%;
-        margin-bottom: 3rem;
-        margin-right:2rem;
-    }
 
     .box-items {
         padding: 2rem;
     }
 
     .video-streaming-info p {
-        
         padding: 0rem 4rem;
     }
 
     .banner-section-container {
         padding: 80px 0px;
+    }
+
+    .fa-star {
+        font-size: 9px;
+    }
+
+    .instantly-launch-info p {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .instantly-launch-info p {
+        line-height: 1.3em;
+    }
+
+    .swift-dependable{
+        margin-top: 2rem;
+    }
+
+    .swift-dependable-info p {
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+        line-height:1.3em;
+    }
+
+    .plat-list>div:first-child, .plat-list>div:nth-child(2) {
+        margin-bottom: 2rem;
     }
 }
 
@@ -968,6 +960,10 @@ img {
 
     .recognitions {
         padding: 40px 0px;
+    }
+
+    .cs-container{
+        padding:0rem 6rem;
     }
 
     .list-det li {
@@ -987,10 +983,6 @@ img {
         padding: 0rem 5rem;
     }
 
-    .unprecedented-1 {
-        width: 33%;
-    }
-
     .swift-dependable-header {
         margin-top: -3rem;
     }
@@ -998,16 +990,43 @@ img {
     .cont-new-plat {
         margin-bottom: 1rem !important;
     }
-} 
 
-@media screen and (max-width:1200px){
+    .empowering-technologies-header h1{
+        padding:0rem;
+    }
+
+    .cont-new-plat>div:nth-child(1) {
+        margin: 0rem;
+    }
 
     .fa-star {
         font-size: 8px;
     }
 
+    nav {
+        padding: 0rem 6rem;
+    }
+
+    .instantly-launch-header h1{
+        margin-top:-4rem;
+    }
+
+    .cont-new-plat>div:nth-child(1) {
+        padding-left: 65px;
+    }
+
+    .plat-list {
+        padding-right: 110px;
+    }
+
+    .form-left {
+        padding-left: 2rem;
+    }
+} 
+
+@media screen and (max-width:1200px){
+
     .swift-dependable-info p,.instantly-launch-info p {
-        
         font-size: 17px;
         line-height: 1.2em;
         margin-top: 0.5rem;
@@ -1015,7 +1034,6 @@ img {
     }
 
     .swift-dependable-header h1,.instantly-launch-header h1 {
-        
         line-height: 1em;
     }
 
@@ -1024,12 +1042,7 @@ img {
     }
 
     .btn-1{
-
         font-size:16px;
-    }
-
-    .cs-container {
-        padding: 0px 45px;
     }
 
     .video-streaming-info p {
@@ -1045,12 +1058,10 @@ img {
     }
 
     .btn{
-
         font-size:16px;
     }
 
     .banner-section-info p{
-
         margin-bottom:1rem;
     }
 } 
@@ -1062,32 +1073,27 @@ img {
     }
 
     .plat-list>div{
-
         display:flex;
         flex-direction:column;
     }
 
     .plat-list>div .list-img{
-
         display:flex;
         justify-content:space-between;
         flex-direction:row;
     }
 
     .plat-list>div .list-img div:nth-child(1) img{
-
         width:50%;
         height:20%;
     }
 
     .cont-new-plat h2{
-
         margin-bottom:1rem;
         margin-top:1rem;
     }
 
     .cont-new-plat{
-
         margin-bottom:3rem !important;
     }
 
@@ -1096,7 +1102,6 @@ img {
     }
 
     .plat-list>div {
-       
         column-gap: 4rem;
     }
 
@@ -1105,7 +1110,7 @@ img {
     }
 
     .recognitions .title h2, .enterprise-level-header h1, .unprecedented-video-header h1, .empowering-technologies-header h1, .swift-dependable-header h1, .instantly-launch-header h1,.video-streaming-header h1,.banner-section-left-header h1 {
-        font-size: 35px;
+        font-size: 32px;
     }
 
     .enterprise-level-section {
@@ -1113,23 +1118,19 @@ img {
     }
 
     .empowering-technologies-details{
-
         display:flex;
         flex-direction:column;
     }
 
     .empowering-technologies-left,.empowering-technologies-right{
-
         width:100%;
     }
 
     .empowering-technologies-left,.empowering-technologies-right{
-
         display:flex;
     }
 
     .tech-1{
-
         width:45%;
     }
 
@@ -1162,8 +1163,11 @@ img {
     }
 
     .banner-section-container {
-
         margin-top:4rem;
+    }
+
+    .plat-list {
+        padding-right: 102px;
     }
 }
 
@@ -1175,19 +1179,20 @@ img {
         flex-direction:column;
     }
 
-    .swift-dependable{
+    .cont-new-plat{
+        margin-bottom:2rem !important;
+    }
 
+    .swift-dependable{
         display:flex;
         flex-direction:column-reverse;
     }
 
     .instantly-launch-left,.instantly-launch-right,.swift-dependable-left,.swift-dependable-right{
-
         width:100%
     }
 
     .unprecedented-1 {
-        
         padding: 0px;
     }
 
@@ -1200,7 +1205,6 @@ img {
     }
 
     .empowering-technologies-header h1 {
-        
         padding: 0rem;
     }
 
@@ -1216,18 +1220,15 @@ img {
     }
 
     .banner-section-container{
-
         display:flex;
         flex-direction:column;
     }
 
     .banner-section-left,.banner-section-right{
-
         width:100%;
     }
 
     .banner-section-right{
-
         margin-top:3rem;
     }
 
@@ -1236,20 +1237,57 @@ img {
     }
 
     .btn-1{
-
         font-size:18px;
+    }
+
+    nav {
+        padding: 0rem 4rem;
+    }
+
+    .cont-new-plat>div:nth-child(1) {
+        padding-left: 38px;
+    }
+
+    .plat-list {
+        padding-right: 70px;
+    }
+
+    .unprecedented-1 {
+        width: 50%;
+        padding: 0px;
+    }
+
+    .cs-container{
+        padding:0rem 4rem;
+    }
+
+    .creative-boost-left-header h1 {
+        font-size: 45px;
+        line-height: 70px;
     }
 }
 
 @media screen and (max-width:820px){
 
     .unprecedented-1 {
-        width: 50%;
         margin-top:2rem;
     }
 
-    .plat-cont-new .cont-new-plat {
-        margin-bottom: 3rem;
+    .cont-new-plat {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .cont-new-plat h2 {
+        font-size: 30px;
+    }
+
+    .fa-star{
+        font-size:5px;
+    }
+
+    .plat-list>div .list-img div:nth-child(1) img {
+        width: 40%;
+        height: 15%;
     }
 
     
@@ -1284,6 +1322,31 @@ img {
         line-height: 1.4em;
     }
 
+    nav {
+        padding: 0rem 2rem;
+    }
+
+    .cs-container{
+
+        padding:0rem 2rem;
+    }
+
+    .cont-new-plat>div:nth-child(1) {
+        padding-left: 4px;
+    }
+
+    .plat-list {
+        padding-right: 40px;
+    }
+
+    .cont-new-plat {
+        margin-bottom: 6rem !important;
+    }
+
+    .list-img div:nth-child(1) {
+        margin-bottom: 0rem;
+    }
+
 }
 
 @media screen and (max-width:575px){
@@ -1292,10 +1355,7 @@ img {
         font-size: 30px;
     }
 
-    .banner-section-left-header h1,
-    .instantly-launch-header h1,
-    .swift-dependable-header h1{
-
+    .banner-section-left-header h1,.instantly-launch-header h1,.swift-dependable-header h1{
         text-align:center;
     }
 
@@ -1304,12 +1364,10 @@ img {
     }
 
     .banner-section-container {
-
         margin-top:0rem;
     }
 
     .instantly-launch-section{
-
         padding-top:20px;
     }
 
@@ -1317,8 +1375,7 @@ img {
         font-size: 16px;
     }
 
-    .video-streaming-header h1 {
-       
+    .video-streaming-header h1 { 
         padding: 0rem;
     }
 
@@ -1327,48 +1384,34 @@ img {
     }
 
     .list-img{
-
         margin-top:1rem;
     }
 
-    .cs-container {
-        padding: 0px 30px;
-    }
-
     .instantly-launch-section{
-
         padding-bottom:30px;
     }
 
     .instantly-launch-right{
-
         margin-top:2rem;
     }
 
     .swift-dependable-left{
-
         margin-top:2rem;
     }
 
     .empowering-technologies-left,.empowering-technologies-right{
-
         display:flex;
         flex-direction:column;
     }
 
     .tech-1{
-
         width:100%;
         text-align:center;
+        margin-bottom: 2rem;
     }
 
     .empowering-technologies-left .tech-1:nth-child(2),.empowering-technologies-right .tech-1:nth-child(2){
-
         margin-left:0rem;
-    }
-
-    .tech-1 {
-        margin-bottom: 2rem;
     }
 
     .empowering-technologies-section, .unprecedented-video-section, .video-streaming, .banner-section-container {
@@ -1376,7 +1419,6 @@ img {
     }
 
     .empowering-technologies-right .tech-1:nth-child(1){
-
         margin-bottom:2rem;
     }
 
@@ -1390,18 +1432,15 @@ img {
     }
 
     .plat-forms{
-
         display:flex;
         flex-direction:column;
     }
 
     .plat-cont-new{
-
         width:100%;
     }
 
     .plat-list{
-
         width:97%;
         margin:0.5rem;
     }
@@ -1414,16 +1453,54 @@ img {
 
         font-size:20px;
     }
+
+    .instantly-launch-header h1 {
+        margin-top: 0rem;
+    }
+
+    .plat-list {
+        padding-right: 4px;
+    }
+
+    .fa-star {
+        font-size: 10px;
+    }
+
+    .plat-list>div .list-img div:nth-child(1) img {
+        width: 60%;
+        height: 20%; 
+    }
+
+    .form-left {
+        padding-left: 0rem;
+    }
+
+    nav{
+        padding:0rem 1rem;
+    }
+
+    .cont-new-plat>div:nth-child(1) {
+        padding-left: 0px;
+    }
+
+    .plat-list {
+        padding-left: 0.6rem;
+        padding-right: 1rem;
+    }
+
+    .cs-container{
+        padding:0rem 1rem;
+    }
+
+    .cont-new-plat {
+        margin-bottom: 1rem !important;
+    }
 }
 
 @media screen and (max-width:414px){
 
     .technologies-section, .unprecedented-video-section, .video-streaming, .banner-section-container {
         padding: 15px 0px;
-    }
-
-    .cs-container {
-        padding: 0px 15px;
     }
 
     .item-1 {
@@ -1446,12 +1523,10 @@ img {
     }
 
     .plat-list{
-
         width:95%;
     }
 
     .unprecedented-video-section{
-
         padding:15px 0px 30px 0px;
     }
 }
